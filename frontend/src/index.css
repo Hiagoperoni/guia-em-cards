@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    line-height: 1.4;
+    background-color: #94948e;
+    color: #ffffff;
+    /* subtle pixel grid backdrop */
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.18) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.18) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.5;
+  }
+
+  * {
+    image-rendering: pixelated;
+  }
+}
+
+@layer components {
+  /* ----- 8-bit button ----- */
+  .eightbit-btn {
+    @apply relative inline-flex items-center justify-center gap-2 px-5 py-3 text-white no-underline;
+    font-family: 'Press Start 2P', cursive;
+    background: theme('colors.eightbit.green');
+    box-shadow: inset -4px -4px 0px 0px theme('colors.eightbit.green-shadow');
+    cursor: pointer;
+    transition: none;
+  }
+  .eightbit-btn:hover,
+  .eightbit-btn:focus-visible {
+    background: theme('colors.eightbit.green-hover');
+    box-shadow: inset -6px -6px 0px 0px theme('colors.eightbit.green-shadow');
+    outline: none;
+  }
+  .eightbit-btn:active {
+    box-shadow: inset 4px 4px 0px 0px theme('colors.eightbit.green-shadow');
+  }
+  .eightbit-btn:disabled {
+    background: #b7b7a4;
+    box-shadow: inset -4px -4px 0px 0px #8a8a78;
+    cursor: not-allowed;
+  }
+  .eightbit-btn::before,
+  .eightbit-btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+  }
+  .eightbit-btn::before {
+    top: -4px;
+    left: 0;
+    border-top: 4px black solid;
+    border-bottom: 4px black solid;
+  }
+  .eightbit-btn::after {
+    left: -4px;
+    top: 0;
+    border-left: 4px black solid;
+    border-right: 4px black solid;
+  }
+
+  /* button color variants */
+  .eightbit-btn--proceed {
+    background: theme('colors.eightbit.yellow');
+    color: #1a1a1a;
+    box-shadow: inset -4px -4px 0px 0px theme('colors.eightbit.yellow-shadow');
+  }
+  .eightbit-btn--proceed:hover,
+  .eightbit-btn--proceed:focus-visible {
+    background: theme('colors.eightbit.yellow-hover');
+    box-shadow: inset -6px -6px 0px 0px theme('colors.eightbit.yellow-shadow');
+  }
+  .eightbit-btn--proceed:active {
+    box-shadow: inset 4px 4px 0px 0px theme('colors.eightbit.yellow-shadow');
+  }
+
+  .eightbit-btn--reset {
+    background: theme('colors.eightbit.red');
+    box-shadow: inset -4px -4px 0px 0px theme('colors.eightbit.red-shadow');
+  }
+  .eightbit-btn--reset:hover,
+  .eightbit-btn--reset:focus-visible {
+    background: theme('colors.eightbit.red-hover');
+    box-shadow: inset -6px -6px 0px 0px theme('colors.eightbit.red-shadow');
+  }
+  .eightbit-btn--reset:active {
+    box-shadow: inset 4px 4px 0px 0px theme('colors.eightbit.red-shadow');
+  }
+
+  .eightbit-btn--blue {
+    background: theme('colors.eightbit.blue');
+    box-shadow: inset -4px -4px 0px 0px theme('colors.eightbit.blue-shadow');
+  }
+  .eightbit-btn--blue:hover,
+  .eightbit-btn--blue:focus-visible {
+    background: theme('colors.eightbit.blue-hover');
+    box-shadow: inset -6px -6px 0px 0px theme('colors.eightbit.blue-shadow');
+  }
+  .eightbit-btn--blue:active {
+    box-shadow: inset 4px 4px 0px 0px theme('colors.eightbit.blue-shadow');
+  }
+
+  .eightbit-btn--sm {
+    @apply px-3 py-2 text-xs;
+  }
+
+  /* ----- 8-bit panel / card ----- */
+  .eightbit-panel {
+    background: theme('colors.eightbit.panel');
+    border: 4px solid #1a1a1a;
+    box-shadow:
+      0 10px 0 -5px rgba(26, 26, 26, 0.5),
+      0 20px 0 -10px rgba(247, 213, 29, 0.6),
+      0 30px 0 -16px rgba(231, 110, 85, 0.75);
+  }
+
+  /* simpler hard-bordered box (no drop layers) */
+  .eightbit-box {
+    background: theme('colors.eightbit.panel');
+    border: 4px solid #1a1a1a;
+    box-shadow: 6px 6px 0px 0px rgba(26, 26, 26, 0.85);
+  }
+  .eightbit-box--flat {
+    box-shadow: none;
+  }
+
+  /* ----- 8-bit input ----- */
+  .eightbit-input {
+    @apply w-full bg-white px-3 py-2 text-base;
+    font-family: 'VT323', monospace;
+    color: #1a1a1a;
+    border: 4px solid #1a1a1a;
+    box-shadow: inset 3px 3px 0px 0px rgba(26, 26, 26, 0.15);
+  }
+  .eightbit-input::placeholder {
+    color: #8a8a78;
+  }
+  .eightbit-input:focus {
+    outline: none;
+    box-shadow: inset 3px 3px 0px 0px rgba(32, 156, 238, 0.35);
+  }
+}
