@@ -31,5 +31,3 @@ npm-debug.log*
 # Vite / Vercel
 frontend/.vite/
 .vercel/
-
-yarn.lock

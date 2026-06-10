@@ -63,6 +63,7 @@ export function HomePage() {
               key={subject.id}
               to={`/subjects/${subject.id}`}
               className="eightbit-box group flex items-start gap-4 p-6 transition-transform hover:-translate-y-1"
+              style={{ backgroundColor: '#ffffff' }}
             >
               <div
                 className="flex h-12 w-12 flex-shrink-0 items-center justify-center border-4 border-eightbit-ink text-2xl"
@@ -71,16 +72,16 @@ export function HomePage() {
                 {subject.icon}
               </div>
               <div className="min-w-0">
-                <h3 className="truncate text-xs leading-relaxed" style={{ color: subject.color }}>
+                <h3 className="truncate text-xs leading-relaxed text-eightbit-blue">
                   {subject.name}
                 </h3>
                 {subject.description && (
-                  <p className="mt-2 line-clamp-2 text-base text-eightbit-green-shadow">
+                  <p className="mt-2 line-clamp-2 text-base text-eightbit-blue">
                     {subject.description}
                   </p>
                 )}
                 {subject.topicCount !== undefined && (
-                  <p className="mt-2 text-sm text-eightbit-ink/60">
+                  <p className="mt-2 text-sm text-eightbit-blue">
                     {subject.topicCount} tópico{subject.topicCount !== 1 ? 's' : ''}
                   </p>
                 )}

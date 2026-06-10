@@ -91,19 +91,20 @@ export function SubjectPage() {
             <div
               key={topic.id}
               className="eightbit-box flex items-center justify-between gap-4 px-6 py-4"
+              style={{ backgroundColor: '#ffffff' }}
             >
               <div>
-                <h3 className="text-xs leading-relaxed text-eightbit-ink">{topic.name}</h3>
+                <h3 className="text-xs leading-relaxed text-eightbit-blue">{topic.name}</h3>
                 {topic.description && (
-                  <p className="mt-2 text-base text-eightbit-green-shadow">{topic.description}</p>
+                  <p className="mt-2 text-base text-eightbit-blue">{topic.description}</p>
                 )}
                 {topic.cardCount !== undefined && (
-                  <p className="mt-1 text-sm text-eightbit-ink/60">
+                  <p className="mt-1 text-sm text-eightbit-blue">
                     {topic.cardCount} card{topic.cardCount !== 1 ? 's' : ''}
                   </p>
                 )}
               </div>
-              <div className="flex flex-shrink-0 flex-col gap-2">
+              <div className="flex flex-shrink-0 flex-col gap-4">
                 <Link
                   to={`/study/${topic.id}`}
                   className="eightbit-btn eightbit-btn--sm"
