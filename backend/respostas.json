@@ -1,0 +1,418 @@
+[
+    {
+      "pergunta": "DIFERENCIE CÉLULA PROCARIÓTICA DE EUCARIÓTICA.",
+      "respostaCard": "As eucarióticas têm um núcleo organizado (protegido por uma membrana) e organelas. As procarióticas são mais simples, com o material genético solto e sem organelas.",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: A grande diferença aqui é a compartimentalização e organização do espaço. Células eucarióticas isolam suas reações químicas em organelas e protegem o DNA no núcleo. As procarióticas têm o DNA disperso em uma região chamada nucleoide e fazem tudo no mesmo espaço.\n\n🚚 Exemplo do Cotidiano: Uma célula procariótica é como um food truck: o cozinheiro, os ingredientes e o fogão dividem o mesmo espaço apertado, o que a torna ágil e rápida. A célula eucariótica é como a cozinha de um grande restaurante, dividida em áreas separadas (carnes, sobremesas, lavagem), permitindo criar pratos mais complexos e em maior volume. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Celltypes.svg/800px-Celltypes.svg.png",
+      "glossario": [
+        {
+          "conceito": "Carioteca",
+          "explicacao": "É a 'capa' ou membrana que envolve o núcleo das células eucarióticas, servindo como um cofre de segurança para proteger o DNA."
+        },
+        {
+          "conceito": "Organelas",
+          "explicacao": "São como pequenos 'órgãos' dentro da célula, cada um com uma função de trabalho específica (como gerar energia ou fazer a digestão)."
+        },
+        {
+          "conceito": "Compartimentalização",
+          "explicacao": "A estratégia da célula de criar compartimentos fechados (espaços separados) para que diferentes reações químicas aconteçam ao mesmo tempo sem se atrapalharem."
+        },
+        {
+          "conceito": "Nucleoide",
+          "explicacao": "A região central da célula procariótica (como nas bactérias) onde o DNA fica embolado, já que não existe um cofre (núcleo) para guardá-lo."
+        }
+      ]
+    },
+    {
+      "pergunta": "CITE A TEORIA CELULAR E SEU COMPLEMENTO.",
+      "respostaCard": "Todos os seres vivos são feitos de células (a unidade básica), e toda nova célula precisa nascer de outra célula que já existia.",
+      "resumoExplicacao": "🧬 Conceitos Fundamentais: A célula é a unidade morfológica (forma a estrutura física) e fisiológica (faz o corpo funcionar). O complemento moderno dessa teoria diz que as células carregam as instruções genéticas (DNA), que são copiadas e passadas para as novas células durante a divisão celular pelo princípio da biogênese.\n\n🍞 Exemplo do Cotidiano: Pense no preparo de pão com fermentação natural (o famoso 'levain' ou massa madre). Para fazer a massa crescer, o padeiro sempre precisa usar uma 'isca', que é um pedaço de uma massa anterior contendo leveduras vivas. A nova colônia não surge do nada; ela herda a biologia daquela mistura que já existia e se multiplica a partir dela. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Mitosis_cells_sequence.svg/800px-Mitosis_cells_sequence.svg.png",
+      "glossario": [
+        {
+          "conceito": "Material Genético (DNA)",
+          "explicacao": "O 'manual de instruções' da vida, que guarda todas as características do ser vivo e garante que o corpo saiba como funcionar."
+        },
+        {
+          "conceito": "Divisão Celular",
+          "explicacao": "O processo em que uma célula-mãe se divide para formar células-filhas, permitindo que o organismo cresça ou regenere tecidos machucados."
+        },
+        {
+          "conceito": "Biogênese",
+          "explicacao": "A lei biológica fundamental que afirma que a vida só pode surgir de uma vida preexistente, nunca do nada."
+        }
+      ]
+    },
+    {
+      "pergunta": "QUAIS AS TRÊS REGIÕES DA CÉLULA?",
+      "respostaCard": "As três principais regiões são a membrana plasmática (a barreira de proteção), o citoplasma (o espaço de trabalho) e o núcleo (o centro de comando).",
+      "resumoExplicacao": "🎯 Conceitos Fundamentais: Toda célula eucariótica possui essas três partes essenciais para funcionar. A membrana atua como um filtro; o citoplasma é onde o metabolismo celular acontece de fato, abrigando as ferramentas da célula; e o núcleo é o cofre seguro que guarda as instruções genéticas de como o organismo deve operar.\n\n✈️ Exemplo do Cotidiano: Pense no funcionamento de um aeroporto internacional. A Membrana Plasmática é a área de segurança e a alfândega, barrando perigos e controlando acessos. O Citoplasma é o saguão gigantesco e as pistas, onde os passageiros e aviões (organelas) circulam e fazem as coisas acontecerem. O Núcleo é a Torre de Controle, a área restrita e superprotegida que coordena e dita as regras de todas as atividades. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Animal_cell_structure_pt.svg/800px-Animal_cell_structure_pt.svg.png",
+      "glossario": [
+        {
+          "conceito": "Citoplasma",
+          "explicacao": "É todo o espaço entre a membrana e o núcleo, preenchido por um líquido gelatinoso (citosol) onde as organelas ficam mergulhadas."
+        },
+        {
+          "conceito": "Membrana Plasmática",
+          "explicacao": "A película fininha que envolve a célula, controlando ativamente o que entra e o que sai."
+        },
+        {
+          "conceito": "Núcleo Celular",
+          "explicacao": "A estrutura central que funciona como o 'cérebro' da célula, guardando e protegendo o DNA."
+        },
+        {
+          "conceito": "Metabolismo",
+          "explicacao": "O conjunto de todas as transformações e reações químicas que a célula faz para gerar energia e sobreviver."
+        }
+      ]
+    },
+    {
+      "pergunta": "CONCEITUE CÉLULA",
+      "respostaCard": "A célula é a menor parte viva do corpo. Ela tem metabolismo próprio, ou seja, consegue gerar energia, crescer e se reproduzir de forma autossuficiente.",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: A célula é a unidade morfológica (dá a forma ao corpo) e a unidade fisiológica (faz o corpo funcionar). Ela é como uma fábrica em miniatura: mesmo sendo muito pequena, tem todas as 'ferramentas' necessárias para se manter viva sem depender do ambiente externo para funções básicas, desde que tenha nutrientes.\n\n🐜 Exemplo do Cotidiano: Imagine um formigueiro gigante. Uma única formiga (a célula) é um ser vivo completo: ela respira, come e anda sozinha. Porém, ela é vulnerável. É apenas quando milhões de formigas se unem, cada uma focada em seu trabalho, que surge a estrutura do formigueiro, agindo como um único 'superorganismo' vivo e forte (como o nosso corpo humano). linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Animal_cell_structure_pt.svg/800px-Animal_cell_structure_pt.svg.png",
+      "glossario": [
+        {
+          "conceito": "Unidade Morfológica",
+          "explicacao": "Refere-se à forma. Significa que o corpo de todo ser vivo é construído por peças físicas chamadas células, como blocos de montar."
+        },
+        {
+          "conceito": "Unidade Fisiológica",
+          "explicacao": "Refere-se ao funcionamento. Significa que as reações que nos mantêm vivos (como extrair energia da comida) acontecem dentro dessas células."
+        },
+        {
+          "conceito": "Autossuficiente",
+          "explicacao": "A capacidade de conseguir fazer tudo o que é necessário para a própria sobrevivência sem depender que outra estrutura faça o trabalho por ela."
+        }
+      ]
+    },
+    {
+      "pergunta": "FAÇA UM ESQUEMA DO MODELO DO MOSAICO FLUIDO E CITE SEUS COMPLEMENTOS NO ESQUEMA.",
+      "respostaCard": "O modelo descreve a membrana como uma dupla camada de gorduras (fosfolipídios) em constante movimento, onde proteínas ficam mergulhadas flutuando.",
+      "resumoExplicacao": "🌊 Conceitos Fundamentais: Esse modelo prova que a membrana celular não é uma casca dura. Ela é formada por uma bicamada de lipídios que são anfipáticos (têm uma parte que 'ama' água e outra que 'odeia'). Essa química faz com que a membrana seja elástica. O nome 'mosaico' vem de ser feita de várias peças diferentes misturadas, e 'fluido' porque essas peças deslizam livremente. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Cell_membrane_detailed_diagram_pt.svg/800px-Cell_membrane_detailed_diagram_pt.svg.png\n\n🤹‍♀️ Exemplo do Cotidiano: Imagine uma piscina de bolinhas. As bolinhas são as gorduras da membrana: preenchem todo o espaço e estão sempre rolando e trocando de lugar entre si, mas não deixam o fundo exposto. As proteínas são como as crianças brincando lá dentro: elas conseguem se mover pelo meio das bolinhas de um lado para o outro com facilidade, flutuando nessa estrutura."
+      ,"glossario": [
+        {
+          "conceito": "Fosfolipídio",
+          "explicacao": "A gordura base que constrói a membrana. Tem o formato que lembra um cotonete, com uma 'cabeça' de fosfato e duas 'caudas' de lipídios."
+        },
+        {
+          "conceito": "Anfipática",
+          "explicacao": "Uma molécula com 'duas caras': uma parte tem forte atração por água (hidrofílica) e a outra foge da água (hidrofóbica). É o segredo da estabilidade da célula."
+        },
+        {
+          "conceito": "Fluidez",
+          "explicacao": "A capacidade mecânica das moléculas da membrana de girarem e trocarem de lugar constantemente, sem que a estrutura se quebre."
+        },
+        {
+          "conceito": "Bicamada Lipídica",
+          "explicacao": "A estrutura de 'sanduíche' formada por duas camadas de gordura que se alinham para proteger a célula da água externa e interna."
+        }
+      ]
+    },
+    {
+      "pergunta": "CITE AS CARACTERÍSTICAS DA MEMBRANA PLASMÁTICA",
+      "respostaCard": "Ela é muito fina, flexível, consegue se regenerar, é feita de gorduras e proteínas (lipoproteica), e escolhe rigorosamente o que pode atravessá-la.",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: A membrana é uma película invisível a olho nu, mas incrivelmente resistente devido à sua composição lipoproteica. Sua flexibilidade permite movimentos ameboides e processos de endocitose, e sua característica mais marcante é a permeabilidade seletiva para manter a segurança celular. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Cell_membrane_detailed_diagram_pt.svg/800px-Cell_membrane_detailed_diagram_pt.svg.png\n\n🧥 Exemplo do Cotidiano: Pense em casacos 'corta-vento' impermeáveis de alta tecnologia. O tecido veste o corpo e acompanha seus movimentos (flexibilidade). Além disso, os poros do casaco deixam o vapor do seu suor sair de dentro para fora, mas bloqueiam completamente a entrada do vento gelado e das gotas de chuva. Ele seleciona inteligentemente o que passa por ele.",
+      "glossario": [
+        {
+          "conceito": "Lipoproteica",
+          "explicacao": "Uma estrutura biológica construída pela combinação de dois materiais principais: lipídios (gorduras) e proteínas."
+        },
+        {
+          "conceito": "Permeabilidade Seletiva",
+          "explicacao": "A habilidade da membrana de analisar quimicamente e autorizar apenas a passagem das substâncias certas no momento adequado."
+        },
+        {
+          "conceito": "Regeneração Celular (da membrana)",
+          "explicacao": "Se a membrana for levemente perfurada, as moléculas de gordura rapidamente se reorganizam e fecham o buraco sozinhas para evitar vazamentos."
+        }
+      ]
+    },
+    {
+      "pergunta": "QUAIS AS FUNÇÕES DA MEMBRANA PLASMÁTICA",
+      "respostaCard": "Suas principais funções são dar o limite físico da célula, proteger a parte interna e controlar o trânsito de comida (nutrientes) e lixo celular.",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: A membrana é a fronteira vital que separa o meio intracelular do meio extracelular. É ela quem capta os sinais químicos do corpo e decide o momento exato de absorver nutrientes essenciais para manter a engrenagem celular rodando e expulsar resíduos tóxicos. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Cell_membrane_diffusion-pt.svg/800px-Cell_membrane_diffusion-pt.svg.png\n\n🛂 Exemplo do Cotidiano: Funciona da mesma maneira que a fronteira e a alfândega de um país. A linha da fronteira demarca fisicamente o território (delimitação). A alfândega protege a nação revistando todos: ela permite e facilita a entrada de turistas e produtos essenciais (nutrientes), mas barra itens perigosos e expulsa quem está agindo de forma prejudicial (lixo).",
+      "glossario": [
+        {
+          "conceito": "Meio Intracelular",
+          "explicacao": "Toda a região que fica protegida do lado de dentro da membrana plasmática (o espaço interno da célula)."
+        },
+        {
+          "conceito": "Meio Extracelular",
+          "explicacao": "O ambiente livre do lado de fora, de onde a célula coleta seus recursos e para onde ela joga fora o que não serve mais."
+        },
+        {
+          "conceito": "Nutrientes",
+          "explicacao": "Substâncias como glicose, vitaminas e minerais que a célula absorve para transformar em energia ou em novas estruturas."
+        }
+      ]
+    },
+    {
+      "pergunta": "O QUE É A HOMEOSTASE CELULAR? COMO QUE É CONTROLADA?",
+      "respostaCard": "É a capacidade da célula de manter seu ambiente interno sempre estável e funcionando bem, mesmo quando o mundo externo sofre alterações bruscas.",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: A homeostase é um estado contínuo de equilíbrio dinâmico, orquestrado pela membrana plasmática. Se o ambiente externo fica com excesso de água ou falta de minerais, a membrana aciona mecanismos de transporte para compensar, trabalhando sem parar para que a célula nunca murche ou inche demais. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Homeostasis_pt.svg/800px-Homeostasis_pt.svg.png\n\n🎧 Exemplo do Cotidiano: Sabe aqueles fones de ouvido caros com 'cancelamento de ruído ativo'? Não importa se você está em um avião barulhento ou em uma rua cheia de trânsito (o caos do meio externo). Os microfones do fone captam essa bagunça e o sistema trabalha intensamente gerando ondas sonoras para neutralizar o barulho, mantendo o interior do seu ouvido em um silêncio constante (a homeostase).",
+      "glossario": [
+        {
+          "conceito": "Homeostase",
+          "explicacao": "Palavra de origem grega ('Homeo' = igual, 'Stase' = estado/ficar). É a missão do corpo de manter tudo constante e seguro."
+        },
+        {
+          "conceito": "Equilíbrio Dinâmico",
+          "explicacao": "Um equilíbrio que exige gasto de energia. As coisas não ficam estáveis porque estão paradas, mas porque a célula trabalha o tempo todo para compensar as mudanças."
+        }
+      ]
+    },
+    {
+      "pergunta": "O QUE É PERMEABILIDADE SELETIVA?",
+      "respostaCard": "É a capacidade da membrana celular de atuar como um filtro inteligente, controlando rigorosamente quais substâncias podem entrar e quais devem sair.",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: A membrana não é apenas uma barreira física perfurada; ela tem uma seletividade ativa. Graças à repulsão da bicamada lipídica e à especificidade das proteínas de transporte, a célula garante que toxinas sejam barradas e que substâncias vitais (como a água e sais minerais) não vazem de forma descontrolada. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Cell_membrane_detailed_diagram_pt.svg/800px-Cell_membrane_detailed_diagram_pt.svg.png\n\n🐈 Exemplo do Cotidiano: Pense em uma porta inteligente para pets (smart pet doors). Ela não é um buraco sempre aberto. Ela possui um leitor que identifica o microchip da coleira do seu gato. Se o seu gato tenta passar, a porta destrava (seleção). Se um animal da rua tenta entrar, a porta permanece bloqueada. A membrana faz essa exata leitura química das moléculas antes do acesso.",
+      "glossario": [
+        {
+          "conceito": "Permeabilidade",
+          "explicacao": "Na física, é a propriedade de um material que permite que fluidos (líquidos ou gases) o atravessem."
+        },
+        {
+          "conceito": "Seletividade",
+          "explicacao": "A capacidade ativa de discernir e escolher; não deixar passar tudo de forma aleatória, mas sim através de critérios muito específicos."
+        },
+        {
+          "conceito": "Proteínas de Transporte",
+          "explicacao": "Estruturas inseridas na membrana que funcionam como 'portões de segurança', ajudando moléculas que não conseguem atravessar a gordura."
+        }
+      ]
+    },
+    {
+      "pergunta": "QUE TIPOS DE SUBSTÂNCIAS ENTRAM LIVREMENTE PELA CAMADA BILIPÍDICA?",
+      "respostaCard": "Substâncias lipossolúveis (com afinidade por gordura) e moléculas muito pequenas e apolares (sem carga elétrica), como oxigênio e gás carbônico.",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: A maior parte da membrana é composta por gordura. Na química, 'semelhante dissolve semelhante', logo, moléculas de natureza lipídica passam com facilidade. Gases vitais como o Oxigênio ($O_2$) e o Dióxido de Carbono ($CO_2$) são tão minúsculos e desprovidos de carga elétrica magnética que escorregam facilmente pelos microscópicos espaços vazios entre os lipídios. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Cell_membrane_diffusion-pt.svg/800px-Cell_membrane_diffusion-pt.svg.png\n\n🌲 Exemplo do Cotidiano: Imagine uma floresta muito densa, com árvores coladas umas nas outras (a camada de gordura). Animais pequenos e ágeis (os gases) conseguem correr pela floresta passando pelos vãos dos troncos sem dificuldade. No entanto, um animal muito grande (moléculas grandes como proteínas) precisaria que uma estrada larga fosse construída ali para poder passar.",
+      "glossario": [
+        {
+          "conceito": "Lipossolúvel",
+          "explicacao": "Substâncias que têm a capacidade de se dissolver facilmente em lipídios (gorduras), mas não se dissolvem bem na água."
+        },
+        {
+          "conceito": "Moléculas Apolares",
+          "explicacao": "Moléculas sem carga elétrica forte (nem positivas, nem negativas). Como não têm 'imãs' elétricos, não sofrem interferência ao cruzar a barreira da célula."
+        }
+      ]
+    },
+    {
+      "pergunta": "QUAIS AS FUNÇÕES DAS PROTEÍNAS DE MEMBRANA?",
+      "respostaCard": "Elas funcionam como pontes para o transporte de moléculas maiores e como 'antenas' (receptores) que captam sinais químicos do meio externo.",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: A bicamada lipídica barra a entrada de moléculas grandes (como a glicose) ou com carga elétrica. As proteínas inseridas na membrana resolvem isso atuando como canais iônicos ou permeases. Outras proteínas atuam como receptores de membrana, recebendo estímulos de hormônios para ativar funções no citoplasma. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Cell_membrane_detailed_diagram_pt.svg/800px-Cell_membrane_detailed_diagram_pt.svg.png\n\n🚇 Exemplo do Cotidiano: Pense em uma estação de metrô. A parede de vidro (lipídios) impede a passagem para a plataforma. As proteínas são as catracas eletrônicas: têm a estrutura exata para autorizar e deixar uma pessoa passar por vez. Outras proteínas funcionam como os painéis de comunicação que recebem sinais da central e avisam a estação sobre atrasos.",
+      "glossario": [
+        {
+          "conceito": "Proteínas Transportadoras (Permeases)",
+          "explicacao": "Proteínas que sofrem uma mudança de formato para 'abraçar' uma molécula de um lado da membrana e soltá-la do outro."
+        },
+        {
+          "conceito": "Receptores de Membrana",
+          "explicacao": "Proteínas que ficam na superfície esperando 'mensageiros' químicos (como a insulina) para disparar ordens para o interior da célula."
+        },
+        {
+          "conceito": "Canais Iônicos",
+          "explicacao": "Proteínas em formato de túnel aberto que permitem a passagem extremamente rápida de íons (como cálcio e potássio)."
+        }
+      ]
+    },
+    {
+      "pergunta": "EXPLIQUE OS TRANSPORTES ABAIXO: A) DIFUSÃO SIMPLES B) DIFUSÃO FACILITADA C) OSMOSE",
+      "respostaCard": "São transportes passivos. A) Simples: soluto passa direto pela gordura. B) Facilitada: soluto usa uma proteína. C) Osmose: transporte exclusivo da ÁGUA.",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: Todos são tipos de transporte passivo (a favor do gradiente de concentração e sem queimar ATP). Na difusão, é o soluto que se movimenta para tentar equilibrar os meios. Na osmose, a membrana bloqueia o soluto, então quem viaja é o solvente (a água), indo em direção ao meio mais concentrado para tentar diluí-lo. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Scheme_facilitated_diffusion_in_cell_membrane-pt.svg/800px-Scheme_facilitated_diffusion_in_cell_membrane-pt.svg.png\n\n💨 Exemplo do Cotidiano:\n* **Simples:** Pingar corante em um copo de água; ele se espalha sozinho até a água inteira ficar colorida por igual.\n* **Facilitada:** Passar por uma porta giratória (proteína) porque você não consegue atravessar a parede de concreto do banco.\n* **Osmose:** Temperar alface com sal. Depois de minutos, a água foge das folhas para diluir o sal da tigela, murchando a alface.",
+      "glossario": [
+        {
+          "conceito": "Transporte Passivo",
+          "explicacao": "Movimento natural e espontâneo de substâncias através da membrana sem que a célula gaste energia."
+        },
+        {
+          "conceito": "Gradiente de Concentração",
+          "explicacao": "A diferença de quantidade de uma substância entre dois locais. O fluxo natural é sempre ir de onde tem muito para onde tem pouco."
+        },
+        {
+          "conceito": "Soluto",
+          "explicacao": "A substância sólida ou gás que está dissolvida no líquido (ex: sal, açúcar, oxigênio)."
+        },
+        {
+          "conceito": "Solvente",
+          "explicacao": "O líquido que dissolve o soluto (no caso da biologia, quase sempre é a água)."
+        }
+      ]
+    },
+    {
+      "pergunta": "O QUE OCORRE QUANDO SE JOGA SAL EM UMA LESMA? EXPLIQUE BASEADO NA OSMOSE.",
+      "respostaCard": "A lesma sofre desidratação severa e morre. O sal cria um meio externo hiperconcentrado (hipertônico), fazendo a água do corpo dela fugir por osmose.",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: A pele da lesma é extremamente permeável. O punhado de sal cria um meio externo hipertônico extremo em comparação aos fluidos do animal (meio hipotônico). Pela física da osmose, a água sempre migra na direção da maior concentração de solutos para diluí-los. A lesma perde água de forma brutal e suas células sofrem colapso. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Osmose_pt.svg/800px-Osmose_pt.svg.png\n\n🥩 Exemplo do Cotidiano: É o exato princípio usado há séculos para fazer carne-seca. Esfrega-se sal na carne crua. O sal cria um meio hipertônico e puxa quase toda a umidade da carne para fora. Sem água nas fibras, a carne seca e as bactérias morrem de sede, conservando o alimento.",
+      "glossario": [
+        {
+          "conceito": "Meio Hipertônico",
+          "explicacao": "O ambiente que possui uma concentração MUITO MAIOR de soluto (sal/açúcar) do que o lado oposto da membrana."
+        },
+        {
+          "conceito": "Meio Hipotônico",
+          "explicacao": "O ambiente que possui uma concentração BEM MENOR de soluto (mais aguado e diluído) do que o lado oposto."
+        },
+        {
+          "conceito": "Desidratação Celular",
+          "explicacao": "Perda letal de água do citoplasma que paralisa o metabolismo da célula."
+        }
+      ]
+    },
+    {
+      "pergunta": "EXPLIQUE O QUE É TRANSPORTE ATIVO E O MOTIVO DELE NÃO EQUILIBRAR OS MEIOS.",
+      "respostaCard": "É o transporte que gasta energia (ATP) para forçar substâncias contra o fluxo natural. O objetivo é criar e manter uma desigualdade essencial para o corpo.",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: O transporte ativo atua contra o gradiente de concentração, exigindo a queima de ATP. A célula faz isso porque o desequilíbrio é vital. Nossos neurônios só disparam impulsos nervosos porque bombas de proteína expulsam Sódio ativamente e puxam Potássio para dentro, gerando uma tensão elétrica constante. Se os íons se equilibrassem, nossos nervos 'desligariam' e morreríamos. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Scheme_sodium-potassium_pump-pt.svg/800px-Scheme_sodium-potassium_pump-pt.svg.png\n\n🚣‍♀️ Exemplo do Cotidiano: Imagine que você está em um barco furado no mar. A água (soluto) entra naturalmente pelo buraco para equilibrar os meios e afundar o barco (fluxo passivo). Para sobreviver, você pega um balde e gasta muita energia jogando a água de volta (Transporte Ativo). O objetivo nunca é equilibrar a água de dentro com a de fora, mas forçar a desigualdade para continuar flutuando.",
+      "glossario": [
+        {
+          "conceito": "Transporte Ativo",
+          "explicacao": "Movimento de substâncias que força as moléculas irem para onde JÁ ESTÃO acumuladas, sendo impossível de ocorrer sem gasto de energia."
+        },
+        {
+          "conceito": "ATP (Adenosina Trifosfato)",
+          "explicacao": "É a 'moeda de energia' ou a bateria oficial da célula, produzida na mitocôndria."
+        },
+        {
+          "conceito": "Bomba de Sódio e Potássio",
+          "explicacao": "O tipo mais famoso de transporte ativo do corpo humano, essencial para os músculos e sistema nervoso."
+        }
+      ]
+    },
+    {
+      "pergunta": "POR QUE A CÉLULA VEGETAL NÃO EXPLODE EM MEIO HIPOTÔNICO?",
+      "respostaCard": "Diferente das células animais, a célula vegetal possui uma rígida Parede Celular de celulose por fora da membrana que impede o rompimento (lise).",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: Em meio hipotônico, a água invade a célula vegetal por osmose. Ela incha (estado de turgência), mas a expansão da membrana é bloqueada fisicamente pela dura Parede Celular. Uma célula animal nas mesmas condições (como as nossas hemácias do sangue) não tem essa parede, incha até estourar e morre (lise celular). linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Turgor_pressure_on_plant_cells_diagram.svg/800px-Turgor_pressure_on_plant_cells_diagram.svg.png\n\n🚲 Exemplo do Cotidiano: Pense no pneu de uma bicicleta. A câmara de ar de borracha fina lá dentro (a membrana celular) enche de ar e quer continuar esticando e crescendo, mas a estrutura externa dura do pneu (a parede celular) segura a pressão e não deixa a câmara explodir, mantendo a roda perfeita.",
+      "glossario": [
+        {
+          "conceito": "Parede Celular",
+          "explicacao": "Um exoesqueleto rígido feito principalmente de celulose que reveste as células das plantas por fora, dando suporte mecânico e formato."
+        },
+        {
+          "conceito": "Lise Celular",
+          "explicacao": "O processo de rompimento ou 'explosão' da célula quando ela absorve água demais e a membrana não suporta a pressão."
+        },
+        {
+          "conceito": "Turgência",
+          "explicacao": "O estado em que a célula vegetal fica totalmente inchada de água e firme. É por isso que folhas murchas se erguem novamente quando regadas."
+        },
+        {
+          "conceito": "Celulose",
+          "explicacao": "Um tipo de carboidrato muito duro produzido pelas plantas (é o material principal com o qual fazemos papel e madeira)."
+        }
+      ]
+    },
+    {
+      "pergunta": "DIFERENCIE FAGOCITOSE DE PINOCITOSE.",
+      "respostaCard": "Fagocitose captura partículas sólidas grandes emitindo 'braços'. Pinocitose absorve líquidos e moléculas dissolvidas invaginando a membrana.",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: Ambas são tipos de Endocitose (trazer para dentro). Na fagocitose, a célula projeta partes de si mesma, os pseudópodes, para abraçar partículas sólidas (como os glóbulos brancos do nosso sangue comendo bactérias). Na pinocitose, a membrana simplesmente afunda, criando um microcanal que suga o líquido do ambiente junto com os minerais dissolvidos nele. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Phagocytosis2.png/800px-Phagocytosis2.png\n\n👾 Exemplo do Cotidiano: A Fagocitose é o movimento exato do Pac-Man: ele abre a boca, vai ativamente até a presa e engole o fantasma (sólido) inteiro. Já a Pinocitose seria como você tomando uma sopa rala usando um canudinho de refrigerante: a sucção traz o líquido e os pequenos nutrientes dissolvidos de forma contínua.",
+      "glossario": [
+        {
+          "conceito": "Endocitose",
+          "explicacao": "Palavra geral (Endo = dentro, Cito = célula) para qualquer processo em que a célula usa a membrana para englobar materiais e colocar para dentro."
+        },
+        {
+          "conceito": "Fagocitose",
+          "explicacao": "Do grego 'Phagein' (comer). Especializada em partículas gigantes e sólidas."
+        },
+        {
+          "conceito": "Pinocitose",
+          "explicacao": "Do grego 'Pinein' (beber). Especializada em fluidos extracelulares."
+        },
+        {
+          "conceito": "Pseudópodes",
+          "explicacao": "Significa 'falsos pés'. São as projeções ou extensões elásticas que a célula estica para conseguir abraçar a comida sólida."
+        },
+        {
+          "conceito": "Vesícula",
+          "explicacao": "Uma bolha isolada de membrana criada para transportar materiais com segurança pelo interior da célula."
+        }
+      ]
+    },
+    {
+      "pergunta": "O QUE É CLASMOCITOSE?",
+      "respostaCard": "Também chamada de Exocitose, é a 'defecação celular'. É a expulsão para o meio extracelular do lixo e restos que a célula não vai mais usar.",
+      "resumoExplicacao": "⚠️ Cuidado com a anotação: O caderno original da sua escola afirma que é o 'aumento anormal de plasmócitos', mas isso na verdade é uma doença sanguínea chamada **Plasmocitose**. Em biologia celular, a **Clasmocitose** é a eliminação do resíduo metabólico.\n\n🔬 Conceitos Fundamentais: Após a célula realizar a digestão pelos lisossomos, sobram materiais tóxicos ou inúteis. A célula isola esse lixo em uma vesícula, que viaja até a membrana, funde-se a ela e se abre para o lado de fora, ejetando tudo. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Exocytosis.svg/800px-Exocytosis.svg.png\n\n🗑️ Exemplo do Cotidiano: Imagine o processo de recolher o lixo doméstico. Você junta o que não serve, coloca tudo dentro de um saco plástico (a vesícula), caminha até o portão principal (a membrana plasmática) e deixa na calçada para o caminhão levar. A casa continua limpa e o espaço interno desocupado.",
+      "glossario": [
+        {
+          "conceito": "Exocitose",
+          "explicacao": "Termo guarda-chuva (Exo = fora) para mecanismos de empacotar grandes moléculas em bolhas e empurrá-las para o exterior da célula."
+        },
+        {
+          "conceito": "Resíduo Metabólico",
+          "explicacao": "O 'lixo' gerado pelo funcionamento natural da célula e que, se ficar acumulado no citoplasma, vira veneno e mata a célula."
+        },
+        {
+          "conceito": "Plasmocitose",
+          "explicacao": "Condição médica clínica onde há um aumento gigantesco de um tipo de célula de defesa no sangue (o plasmócito). Não tem a ver com citologia básica."
+        }
+      ]
+    },
+    {
+      "pergunta": "QUAIS OS COMPONENTES DO CITOPLASMA?",
+      "respostaCard": "O citoplasma possui três componentes essenciais: Citosol (líquido gelatinoso), Organelas (máquinas de trabalho) e Citoesqueleto (armação de suporte).",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: O citoplasma não é apenas um espaço preenchido por água pura. O Citosol (hialoplasma) é um gel rico em reações enzimáticas. As Organelas são os miniórgãos funcionais. Já o Citoesqueleto é uma intrincada rede de filamentos de proteínas (microtúbulos) que atua como os ossos e músculos da célula, prendendo as organelas em seus lugares e mantendo o formato tridimensional. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Cytoskeleton_pt.svg/800px-Cytoskeleton_pt.svg.png\n\n🏗️ Exemplo do Cotidiano: Pense em um galpão de uma montadora de carros. O Citosol é o espaço físico preenchido por ar e oxigênio livre onde a produção acontece. As Organelas são os robôs de precisão e as esteiras automáticas que montam os veículos. O Citoesqueleto são as pesadas vigas de aço cruzadas no teto e as grossas colunas de concreto, que seguram a estrutura do galpão firme e apoiam a fiação dos robôs.",
+      "glossario": [
+        {
+          "conceito": "Citosol (ou Hialoplasma)",
+          "explicacao": "O líquido base, de textura semelhante a uma clara de ovo crua, riquíssimo em água, sais minerais, aminoácidos e enzimas dissolvidas."
+        },
+        {
+          "conceito": "Citoesqueleto",
+          "explicacao": "Uma estrutura de andaimes e vigas microscópicas feitas de proteína, que dão resistência à tração mecânica para a célula não esmagar."
+        },
+        {
+          "conceito": "Organelas Citoplasmáticas",
+          "explicacao": "Estruturas funcionais isoladas que operam as tarefas vitais, como a digestão e a respiração."
+        },
+        {
+          "conceito": "Microtúbulos",
+          "explicacao": "Pequenos tubos rígidos de proteína que formam as principais vigas do citoesqueleto celular."
+        }
+      ]
+    },
+    {
+      "pergunta": "CITE AS FUNÇÕES DAS ORGANELAS: RIBOSSOMO, GOLGI, MITOCÔNDRIA, CLOROPLASTO, R.E. RUGOSO, R.E. LISO, LISOSSOMO, VACÚOLO E CENTRÍOLO.",
+      "respostaCard": "Ribossomo(proteína), Golgi(empacota), Mitocôndria(energia), Cloroplasto(fotossíntese), RE Rugoso(transporte), RE Liso(lipídio/desintoxica), Lisossomo(digestão), Vacúolo(armazena), Centríolo(divisão).",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: O citoplasma funciona como um complexo parque industrial de altíssima integração. Nenhuma organela trabalha sozinha; o produto sintetizado em uma (ex: uma enzima feita no Ribossomo do RE Rugoso) é transportado para o Golgi, onde sofre maturação e secreção celular. A Mitocôndria gera o ATP necessário para que todas as outras máquinas não parem. linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Animal_cell_structure_pt.svg/800px-Animal_cell_structure_pt.svg.png\n\n🏭 Exemplo do Cotidiano - A Grande Fábrica:\n* **Ribossomos:** As *Impressoras 3D* que imprimem os produtos (proteínas).\n* **RE Rugoso:** A *Linha de Montagem* repleta de impressoras 3D grudadas.\n* **RE Liso:** O *Laboratório Químico* que faz óleos (lipídios) e o *Filtro de Água* que desintoxica medicamentos (fígado atua muito aqui).\n* **Complexo de Golgi:** O *Centro de Distribuição dos Correios*. Recebe a carga, embala na caixa (vesícula) e despacha.\n* **Mitocôndria:** O *Gerador a Diesel* (gera ATP queimando combustível/glicose).\n* **Cloroplasto:** A *Fazenda de Energia Solar* das plantas.\n* **Lisossomo:** O *Caminhão de Lixo e Reciclagem* (tem ácido para destruir lixo e organelas velhas).\n* **Vacúolo:** A *Caixa d'Água* gigante e armazém.\n* **Centríolos:** Os *Guindastes* que separam os cromossomos puxando a fábrica na hora da divisão.",
+      "glossario": [
+        {
+          "conceito": "Síntese",
+          "explicacao": "Na biologia, significa 'fabricação', 'união' ou 'produção'. Se há 'síntese de proteínas', a célula está literalmente fabricando proteínas."
+        },
+        {
+          "conceito": "Secreção Celular",
+          "explicacao": "Ação especializada do Complexo de Golgi de liberar para o exterior substâncias ativas e úteis que a célula fabricou (como a lágrima e a saliva)."
+        },
+        {
+          "conceito": "Maturação",
+          "explicacao": "Processo de finalizar quimicamente uma proteína para deixá-la ativa e pronta para o trabalho (como afiar uma faca recém-moldada)."
+        },
+        {
+          "conceito": "Enzimas Digestivas",
+          "explicacao": "Proteínas extremamente ácidas ou agressivas contidas dentro dos Lisossomos, usadas para quebrar e derreter partículas alimentares."
+        }
+      ]
+    },
+    {
+      "pergunta": "DIFERENCIE A CÉLULA ANIMAL DA VEGETAL POR MEIO DE SUAS ORGANELAS E COMPONENTES.",
+      "respostaCard": "Células vegetais possuem organelas adaptadas ao seu estilo de vida: Parede Celular, Cloroplastos e Vacúolo Central enorme. Células animais possuem Centríolos e Lisossomos.",
+      "resumoExplicacao": "🔬 Conceitos Fundamentais: A morfologia reflete o estilo de vida evolutivo. Animais são organismos heterótrofos, precisam caçar e digerir comidas de outros seres, por isso o citoplasma foca fortemente na digestão interna (Lisossomos). Plantas são organismos autótrofos e estáticos. Como não andam para buscar comida ou água, desenvolveram organelas focadas em sugar o sol para produzir a própria química nutritiva (Cloroplastos), estocar água por meses (Vacúolo) e uma carapaça de sustentação mecânica (Parede Celular). linkImagem:https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Plant_cell_structure-pt.svg/800px-Plant_cell_structure-pt.svg.png\n\n💡 Macete de Prova: Para não esquecer o trio de ouro que SÓ a Célula Vegetal (e as algas) costuma ter, lembre da agência de viagens CVC: \n* **C**loroplasto\n* **V**acúolo Central\n* Parede **C**elular.",
+      "glossario": [
+        {
+          "conceito": "Autótrofo",
+          "explicacao": "Termo que define seres incrivelmente independentes, capazes de produzir a própria glicose (comida) usando apenas luz solar e minerais brutos."
+        },
+        {
+          "conceito": "Heterótrofo",
+          "explicacao": "Termo que define seres dependentes (como nós). Precisamos obrigatoriamente comer matéria orgânica já pronta de outros seres vivos para obtermos energia."
+        },
+        {
+          "conceito": "Cloroplasto",
+          "explicacao": "Organela exclusiva das plantas que contém a clorofila (que dá a cor verde) responsável pela captação da energia do sol."
+        },
+        {
+          "conceito": "Vacúolo Central",
+          "explicacao": "Uma bolsa gigantesca que chega a ocupar 80% do espaço da célula vegetal adulta, servindo como uma represa de água e controle de pressão."
+        },
+        {
+          "conceito": "Centríolos",
+          "explicacao": "Pequenos cilindros de proteína das células animais fundamentais para formar as cordas que puxam o DNA na hora da multiplicação celular."
+        }
+      ]
+    }
+  ]
