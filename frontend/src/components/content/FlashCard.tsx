@@ -85,7 +85,7 @@ export function FlashCard({ question, answer, summary, glossary, flipped, onFlip
                   <dl className="space-y-2 text-base">
                     {glossary.map((item, i) => (
                       <div key={i} className="border-l-4 border-eightbit-yellow pl-3">
-                        <dt className="text-[18px] font-bold text-eightbit-ink">{item.name}</dt>
+                        <dt className="text-[18px] text-eightbit-blue">{item.name}</dt>
                         <dd className="text-eightbit-blue">{item.explanation}</dd>
                       </div>
                     ))}

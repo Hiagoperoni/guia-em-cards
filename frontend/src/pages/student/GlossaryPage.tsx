@@ -62,7 +62,7 @@ export function GlossaryPage() {
                   <dl className="space-y-3">
                     {topic.terms.map((term, i) => (
                       <div key={`${term.cardId}-${i}`} className="border-l-4 border-eightbit-yellow pl-3">
-                        <dt className="text-[18px] font-bold text-eightbit-ink">{term.name}</dt>
+                        <dt className="text-[18px] text-eightbit-blue">{term.name}</dt>
                         <dd className="text-base text-eightbit-blue">{term.explanation}</dd>
                       </div>
                     ))}
