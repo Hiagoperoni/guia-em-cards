@@ -50,15 +50,21 @@ export function FlashCard({ question, answer, summary, glossary, options, flippe
             transformStyle: 'preserve-3d',
             transition: 'transform 0.55s cubic-bezier(0.4, 0, 0.2, 1)',
             transform: flipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
-            display: 'grid',
+            position: 'relative',
             width: '100%',
             minHeight: '320px',
           }}
         >
-          {/* Front — question */}
+          {/* Front — question (drives height when visible) */}
           <div
             className="eightbit-box flex flex-col items-center justify-center p-5 sm:p-8"
-            style={{ backfaceVisibility: 'hidden', gridArea: '1 / 1' }}
+            style={{
+              backfaceVisibility: 'hidden',
+              position: flipped ? 'absolute' : 'relative',
+              inset: flipped ? 0 : undefined,
+              width: '100%',
+              minHeight: '320px',
+            }}
           >
             <span className="mb-4 font-pixel text-[10px] uppercase tracking-widest text-eightbit-blue">
               Pergunta
@@ -102,10 +108,18 @@ export function FlashCard({ question, answer, summary, glossary, options, flippe
             )}
           </div>
 
-          {/* Back — answer + summary */}
+          {/* Back — answer + summary (drives height when visible) */}
           <div
             className="eightbit-box flex flex-col p-5 sm:p-8"
-            style={{ backfaceVisibility: 'hidden', gridArea: '1 / 1', transform: 'rotateY(180deg)', background: '#4a4a4a' }}
+            style={{
+              backfaceVisibility: 'hidden',
+              position: flipped ? 'relative' : 'absolute',
+              inset: flipped ? undefined : 0,
+              width: '100%',
+              minHeight: '320px',
+              transform: 'rotateY(180deg)',
+              background: '#4a4a4a',
+            }}
           >
             <span className="mb-3 font-pixel text-[10px] uppercase tracking-widest text-eightbit-blue-shadow">
               Resposta
