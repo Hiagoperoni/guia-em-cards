@@ -57,18 +57,20 @@ model Topic {
 }
 
 model Card {
-  id        String       @id @default(cuid())
-  topicId   String
-  topic     Topic        @relation(fields: [topicId], references: [id])
-  question  String
-  answer    String
-  summary   String?
-  glossary  Json?
-  order     Int          @default(0)
-  active    Boolean      @default(true)
-  results   CardResult[]
-  createdAt DateTime     @default(now())
-  updatedAt DateTime     @updatedAt
+  id         String       @id @default(cuid())
+  topicId    String
+  topic      Topic        @relation(fields: [topicId], references: [id])
+  question   String
+  answer     String
+  summary    String?
+  glossary   Json?
+  options    Json?
+  difficulty String?
+  order      Int          @default(0)
+  active     Boolean      @default(true)
+  results    CardResult[]
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
 
   @@index([topicId])
 }

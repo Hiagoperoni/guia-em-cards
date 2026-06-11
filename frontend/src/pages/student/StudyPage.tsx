@@ -4,9 +4,50 @@ import { useQuery } from '@tanstack/react-query';
 import { getTopic, listCards, getCard } from '@/api/content';
 import { createSession, finishSession } from '@/api/sessions';
 import { FlashCard } from '@/components/content/FlashCard';
-import type { Card, CardResultInput } from '@/types/content';
+import type { Card, CardListItem, CardResultInput } from '@/types/content';
 
 type Phase = 'loading' | 'studying' | 'finished' | 'error';
+
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function normalizeDifficulty(d?: string | null): 'facil' | 'media' | 'dificil' | 'outro' {
+  const v = (d ?? '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+  if (v.startsWith('fac')) return 'facil';
+  if (v.startsWith('med')) return 'media';
+  if (v.startsWith('dif')) return 'dificil';
+  return 'outro';
+}
+
+// Tópico com mais de 20 cards: monta uma sessão de 20 perguntas aleatórias
+// distribuídas como 6 fáceis, 10 médias e 4 difíceis. Caso contrário, usa todos.
+function selectSessionCards(items: CardListItem[]): CardListItem[] {
+  if (items.length <= 20) return shuffle(items);
+
+  const groups: Record<'facil' | 'media' | 'dificil' | 'outro', CardListItem[]> = {
+    facil: [],
+    media: [],
+    dificil: [],
+    outro: [],
+  };
+  for (const it of items) groups[normalizeDifficulty(it.difficulty)].push(it);
+
+  const quota: Record<'facil' | 'media' | 'dificil', number> = { facil: 6, media: 10, dificil: 4 };
+  const picked: CardListItem[] = [];
+  for (const level of ['facil', 'media', 'dificil'] as const) {
+    picked.push(...shuffle(groups[level]).slice(0, quota[level]));
+  }
+  return shuffle(picked);
+}
 
 export function StudyPage() {
   const { topicId } = useParams<{ topicId: string }>();
@@ -33,12 +74,9 @@ export function StudyPage() {
       try {
         const items = await listCards(topicId);
         if (items.length === 0) { setPhase('error'); return; }
-        const full = await Promise.all(items.map((c) => getCard(c.id)));
-        // Fisher-Yates shuffle — ordem aleatória sem repetição
-        for (let i = full.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [full[i], full[j]] = [full[j], full[i]];
-        }
+        // Seleção da sessão: 20 cards (6/10/4) se o tópico tiver mais de 20.
+        const selected = selectSessionCards(items);
+        const full = await Promise.all(selected.map((c) => getCard(c.id)));
         setCards(full);
         const session = await createSession(topicId);
         setSessionId(session.id);
@@ -128,6 +166,7 @@ export function StudyPage() {
           answer={card.answer}
           summary={card.summary ?? undefined}
           glossary={card.glossary ?? undefined}
+          options={card.options ?? undefined}
           flipped={flipped}
           onFlip={() => setFlipped((f) => !f)}
           onCorrect={() => handleAnswer('CORRECT')}

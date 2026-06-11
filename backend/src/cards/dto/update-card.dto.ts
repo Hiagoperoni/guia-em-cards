@@ -22,6 +22,15 @@ export class UpdateCardDto {
   @IsOptional()
   summary?: string;
 
+  @IsString()
+  @IsOptional()
+  difficulty?: string;
+
+  @IsArray()
+  @IsString({ each: true })
+  @IsOptional()
+  options?: string[];
+
   @IsArray()
   @IsOptional()
   @ValidateNested({ each: true })

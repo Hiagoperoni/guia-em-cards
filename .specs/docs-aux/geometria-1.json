@@ -1,0 +1,1236 @@
+[
+  {
+    "pergunta": "Qual é o valor da hipotenusa em um triângulo retângulo onde os catetos medem 3 cm e 4 cm?",
+    "dificuldade": "Fácil",
+    "respostaCard": "A) 5 cm. Este é o clássico 'Triângulo Pitagórico 3-4-5'.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: O Teorema de Pitágoras afirma que a soma dos quadrados dos catetos é igual ao quadrado da hipotenusa ($a^2 = b^2 + c^2$). Substituindo os valores, temos: $3^2 + 4^2 = 9 + 16 = 25$. A raiz quadrada de 25 é 5. linkImagem:https://s4.static.brasilescola.uol.com.br/be/2023/02/formula-e-demonstracao-do-teorema-de-pitagoras.jpg\n\n💡 Macete de Prova: Sempre que os catetos forem múltiplos de 3 e 4, a hipotenusa será múltiplo de 5! (Ex: Se os catetos são 6 e 8, a hipotenusa é 10). Isso economiza muito tempo em provas longas.",
+    "glossario": [
+      {
+        "conceito": "Cateto",
+        "explicacao": "São os dois lados menores do triângulo retângulo que se encontram formando o ângulo de 90 graus (o canto quadrado)."
+      },
+      {
+        "conceito": "Hipotenusa",
+        "explicacao": "É o maior lado do triângulo retângulo, e fica sempre exatamente de frente (oposto) para o ângulo de 90 graus."
+      },
+      {
+        "conceito": "Teorema de Pitágoras",
+        "explicacao": "A principal relação matemática da geometria plana que conecta os três lados de um triângulo retângulo através da fórmula $a^2 = b^2 + c^2$."
+      },
+      {
+        "conceito": "Triângulo Pitagórico",
+        "explicacao": "Qualquer triângulo retângulo cujos três lados são formados por números inteiros perfeitos (sem vírgula), como o triângulo de lados 3, 4 e 5."
+      }
+    ],
+    "opcoes": [
+      "A) 5 cm",
+      "B) 6 cm",
+      "C) 7 cm",
+      "D) 25 cm"
+    ]
+  },
+  {
+    "pergunta": "Quais são os elementos principais que compõem um triângulo retângulo e o que o diferencia dos outros tipos de triângulos?",
+    "dificuldade": "Fácil",
+    "respostaCard": "Ele é formado por uma hipotenusa (o maior lado), dois catetos, um ângulo reto de 90° e dois ângulos agudos.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: O que diferencia um triângulo retângulo de todos os outros (como o equilátero ou isósceles) é a presença obrigatória de um ângulo reto de exatamente 90 graus. Esse ângulo funciona como uma 'parede perfeitamente reta em relação ao chão'. linkImagem:https://dicasdecalculo.com.br/wp-content/uploads/2016/07/triangulo-retangulo.jpg\n\n🚪 Exemplo do Cotidiano: Pense em uma rampa de acessibilidade ou em uma escada encostada em um muro. O chão e o muro formam os catetos (um ângulo de 90° perfeito). A rampa ou a escada inclinada representa a hipotenusa.",
+    "glossario": [
+      {
+        "conceito": "Ângulo Reto",
+        "explicacao": "Um ângulo que mede exatamente 90 graus, indicando perpendicularidade. Na geometria, é representado por um quadradinho com um ponto no meio."
+      },
+      {
+        "conceito": "Ângulo Agudo",
+        "explicacao": "Qualquer ângulo que seja maior que 0 e menor que 90 graus."
+      },
+      {
+        "conceito": "Triângulo Retângulo",
+        "explicacao": "O polígono de três lados que possui, obrigatoriamente, um ângulo interno reto (90 graus)."
+      }
+    ]
+  },
+  {
+    "pergunta": "Como podemos provar o Teorema de Pitágoras visualmente utilizando o conceito de áreas de quadrados?",
+    "dificuldade": "Média",
+    "respostaCard": "Desenhando um quadrado a partir de cada lado do triângulo. A área do quadrado desenhado na hipotenusa é exatamente igual à soma das áreas dos quadrados dos dois catetos.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Quando a fórmula diz $a^2 = b^2 + c^2$, a expressão 'elevar ao quadrado' não é apenas uma conta matemática, é literal! Se você desenhar um quadrado perfeito usando o lado 'b' do triângulo, e outro usando o lado 'c', a quantidade de espaço (área) que esses dois quadrados ocupam juntos é milimetricamente igual ao espaço ocupado por um grande quadrado desenhado no lado da hipotenusa 'a'. linkImagem:https://s1.static.brasilescola.uol.com.br/be/e/demonstracoes%20do%20teorema%20de%20pitagoras%201.jpg",
+    "glossario": [
+      {
+        "conceito": "Área do Quadrado",
+        "explicacao": "A medida da superfície interna de um quadrado, calculada multiplicando a base pela altura ($L^2$)."
+      },
+      {
+        "conceito": "Demonstração Geométrica",
+        "explicacao": "Provar que uma fórmula matemática é real e verdadeira através de desenhos físicos e cálculos de espaço, sem depender apenas de álgebra pura."
+      },
+      {
+        "conceito": "Elevação ao Quadrado",
+        "explicacao": "A operação matemática de multiplicar um número por ele mesmo."
+      }
+    ]
+  },
+  {
+    "pergunta": "Em um triângulo retângulo, a soma dos dois ângulos agudos (os menores) será sempre igual a quanto?",
+    "dificuldade": "Fácil",
+    "respostaCard": "B) 90°. Como o triângulo já tem um ângulo de 90°, os outros dois precisam somar 90° para fechar a conta de 180°.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: A regra de ouro da geometria plana diz que a soma de TODOS os três ângulos internos de qualquer triângulo no universo sempre dará 180°. Como o triângulo retângulo obrigatoriamente já gastou 90° em um dos cantos (o ângulo reto), só sobram 90° para dividir entre os outros dois ângulos ($180 - 90 = 90$). Portanto, eles são ângulos complementares.\n\n🍰 Exemplo do Cotidiano: Imagine uma torta inteira que representa 180°. Se o ângulo reto sempre 'come' exatamente a metade dessa torta (90°), as outras duas fatias (os ângulos agudos) precisam dividir a metade que sobrou.",
+    "glossario": [
+      {
+        "conceito": "Ângulos Complementares",
+        "explicacao": "Qualquer par de ângulos que, quando somados, resultam em exatamente 90 graus."
+      },
+      {
+        "conceito": "Soma dos Ângulos Internos",
+        "explicacao": "Teorema fundamental que prova que a soma dos ângulos de dentro de qualquer triângulo plano é sempre 180 graus."
+      }
+    ],
+    "opcoes": [
+      "A) 180°",
+      "B) 90°",
+      "C) 60°",
+      "D) 45°"
+    ]
+  },
+  {
+    "pergunta": "Qual é o macete clássico para lembrar as fórmulas de Seno, Cosseno e Tangente na Trigonometria do Triângulo Retângulo?",
+    "dificuldade": "Média",
+    "respostaCard": "B) SOH CAH TOA. Uma sigla simples para nunca mais esquecer quem divide quem nas relações trigonométricas.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: A trigonometria estuda a relação de proporção entre o tamanho dos lados e a abertura dos ângulos. O macete 'SOH CAH TOA' ajuda a gravar as fórmulas exatas de divisão:\n* **SOH**: Seno = Oposto / Hipotenusa\n* **CAH**: Cosseno = Adjacente / Hipotenusa\n* **TOA**: Tangente = Oposto / Adjacente\n\n🏹 Exemplo do Cotidiano: Imagine você posicionado exatamente em um dos cantos agudos de uma rampa de skate. O 'Cateto Oposto' é a parede que está bem longe, do outro lado da pista (oposta a você). O 'Cateto Adjacente' é o chão plano que você está pisando (ao seu lado). A 'Hipotenusa' é a própria rampa inclinada.",
+    "glossario": [
+      {
+        "conceito": "Trigonometria",
+        "explicacao": "Do grego 'trigōnon' (triângulo) + 'metron' (medida). É o ramo da matemática que estuda a relação entre os comprimentos dos lados e os ângulos dos triângulos."
+      },
+      {
+        "conceito": "Cateto Oposto",
+        "explicacao": "É o lado do triângulo que está fisicamente de frente para o ângulo específico que você escolheu estudar."
+      },
+      {
+        "conceito": "Cateto Adjacente",
+        "explicacao": "É o lado menor do triângulo que 'toca' ou 'encosta' no ângulo que você está estudando."
+      },
+      {
+        "conceito": "Seno, Cosseno e Tangente",
+        "explicacao": "São as três razões (divisões) fundamentais que definem as propriedades trigonométricas de um triângulo."
+      }
+    ],
+    "opcoes": [
+      "A) BASCARA",
+      "B) SOH CAH TOA",
+      "C) PITAGORAS",
+      "D) SENCOS"
+    ]
+  },
+  {
+    "pergunta": "Qual a famosa música (ou macete) para montar a tabela dos ângulos notáveis (30°, 45°, 60°) de Seno, Cosseno e Tangente na hora da prova?",
+    "dificuldade": "Média",
+    "respostaCard": "A famosa musiquinha do '1, 2, 3... 3, 2, 1... Tudo sobre dois...'.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Em provas como ENEM e vestibulares, não temos calculadora, então precisamos decorar os valores dos três ângulos mais famosos da geometria (os ângulos notáveis). O macete clássico é cantar a música enquanto monta a tabela, da esquerda para a direita, linha do Seno primeiro, depois Cosseno:\n\n🎵 A Música:\n'Um, dois, três' (Coloque 1, 2, 3 na linha do Seno)\n'Três, dois, um' (Coloque 3, 2, 1 na linha do Cosseno)\n'Tudo sobre dois' (Coloque o número 2 dividindo todo mundo)\n'E a raiz vai no três e também no dois!' (Coloque o símbolo de raiz quadrada $\\sqrt{}$ em todos os numeradores, menos no 1).\n\nPara a Tangente, o ritmo é outro: 'Raiz de três sobre três, um, raiz de três!' ($\\frac{\\sqrt{3}}{3}, 1, \\sqrt{3}$).",
+    "glossario": [
+      {
+        "conceito": "Ângulos Notáveis",
+        "explicacao": "São os ângulos de 30, 45 e 60 graus. São chamados assim porque seus valores de seno, cosseno e tangente aparecem em quase todas as questões geométricas de provas."
+      },
+      {
+        "conceito": "Tabela Trigonométrica",
+        "explicacao": "Uma grade que organiza os valores decimais ou fracionários de seno, cosseno e tangente para diferentes aberturas de ângulos."
+      }
+    ]
+  },
+  {
+    "pergunta": "Se você traçar uma linha diagonal cortando um quadrado perfeitamente ao meio, que figuras você forma e quais os ângulos internos dessas novas figuras?",
+    "dificuldade": "Média",
+    "respostaCard": "B) Você forma dois triângulos retângulos isósceles, cada um com os ângulos internos de 90°, 45° e 45°.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Um quadrado perfeito tem quatro cantos exatos de 90°. Ao cortar o quadrado ao meio com uma linha (a diagonal), você divide dois desses ângulos de 90° na exata metade ($90 / 2 = 45$). É por isso que a diagonal do quadrado é a base geométrica para o estudo do ângulo notável de 45° na trigonometria! linkImagem:https://files.cursoenemgratuito.com.br/uploads/2020/08/Quadrado-dividido-na-diagonal-formando-angulos-notaveis-de-45o.jpg\n\n🥪 Exemplo do Cotidiano: Imagine cortar um pão de forma quadrado na diagonal para fazer um sanduíche de clube. Você cria duas metades. O canto do pão que não foi cortado continua com 90 graus (o ângulo reto), enquanto as pontas cortadas ficaram bem mais afiadas, com exatamente 45 graus cada.",
+    "glossario": [
+      {
+        "conceito": "Diagonal",
+        "explicacao": "Uma linha reta desenhada por dentro de um polígono que liga dois cantos (vértices) opostos."
+      },
+      {
+        "conceito": "Triângulo Isósceles",
+        "explicacao": "Uma classificação para qualquer triângulo que possui pelo menos dois lados de tamanhos exatamente iguais (neste caso, os dois lados originais do quadrado)."
+      },
+      {
+        "conceito": "Quadrado",
+        "explicacao": "Um polígono regular de quatro lados idênticos e quatro ângulos internos retos (90°)."
+      }
+    ],
+    "opcoes": [
+      "A) Dois triângulos equiláteros",
+      "B) Dois triângulos retângulos com ângulos de 45°",
+      "C) Quatro triângulos menores",
+      "D) Dois retângulos"
+    ]
+  },
+  {
+    "pergunta": "Qual é a equação da Relação Trigonométrica Fundamental e qual o motivo matemático dela sempre resultar em 1?",
+    "dificuldade": "Difícil",
+    "respostaCard": "A fórmula é: $\\sin^2(x) + \\cos^2(x) = 1$. Ela deriva da combinação direta do Teorema de Pitágoras com as divisões de seno e cosseno.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: A relação mais importante de toda a trigonometria afirma que $\\sin^2(x) + \\cos^2(x) = 1$. Mas por que 1? \nLembre-se: Seno = Oposto/Hipotenusa e Cosseno = Adjacente/Hipotenusa. Se você elevar essas frações ao quadrado e somá-las, obterá o numerador comum ($Oposto^2 + Adjacente^2$). \nAgora aplique o Teorema de Pitágoras: $Oposto^2 + Adjacente^2$ é igual a $Hipotenusa^2$. A fração final vira $Hipotenusa^2 / Hipotenusa^2$. Qualquer número dividido por ele mesmo é 1!\n\n💡 Macete de Prova: Se uma questão mais complexa te der o valor numérico do Seno e pedir para você descobrir o Cosseno daquele mesmo ângulo, use essa fórmula imediatamente. Ela é a 'chave-mestra' da matéria.",
+    "glossario": [
+      {
+        "conceito": "Relação Trigonométrica Fundamental",
+        "explicacao": "A identidade matemática que conecta o seno e o cosseno de um mesmo ângulo, provando que a soma de seus quadrados é sempre igual a 1."
+      },
+      {
+        "conceito": "Identidade Trigonométrica",
+        "explicacao": "Uma igualdade matemática envolvendo funções trigonométricas que é sempre verdadeira para qualquer valor do ângulo (x)."
+      }
+    ]
+  },
+  {
+    "pergunta": "Como o conceito geométrico de 'Semelhança de Triângulos' pode ser utilizado para provar que o Teorema de Pitágoras funciona na vida real?",
+    "dificuldade": "Difícil",
+    "respostaCard": "Traçando a altura a partir do ângulo de 90°, nós cortamos o triângulo grande em dois triângulos menores. Todos os três são geometricamente semelhantes (proporcionais).",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Se você pegar um triângulo retângulo e desenhar uma linha reta descendo do ângulo de 90° até encostar na hipotenusa (essa linha é a altura 'h'), você criará dois novos triângulos menores lá dentro. linkImagem:https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/11/1-triangulos-semelhantes.jpg \nA mágica da geometria é que esses dois triângulos pequenos possuem exatamente os mesmos três ângulos do triângulo grande original! Por causa dessa semelhança (proporção idêntica de aberturas), podemos cruzar as medidas de seus lados usando a clássica 'Regra de Três', o que algebricamente resulta na equação $a^2 = b^2 + c^2$.\n\n📸 Exemplo do Cotidiano: É a exata mesma lógica de dar 'zoom' em uma foto no celular. A foto pequena original e a imagem gigante com zoom têm tamanhos e larguras bem diferentes, mas as proporções matemáticas (a distância relativa entre os olhos de uma pessoa, por exemplo) são perfeitamente preservadas. Elas são figuras semelhantes.",
+    "glossario": [
+      {
+        "conceito": "Semelhança de Triângulos",
+        "explicacao": "Quando dois ou mais triângulos possuem os exatos mesmos ângulos internos. Eles podem ter tamanhos totalmente diferentes, mas são ampliações perfeitas uns dos outros (como miniaturas em escala)."
+      },
+      {
+        "conceito": "Proporção",
+        "explicacao": "A igualdade entre duas razões matemáticas. Na prática, significa que se um lado dobrou de tamanho, o outro lado correspondente também precisou dobrar para a figura não deformar."
+      },
+      {
+        "conceito": "Altura Relativa à Hipotenusa",
+        "explicacao": "O segmento de reta que nasce no ângulo de 90 graus e cruza o triângulo até atingir a hipotenusa, formando um novo ângulo de 90 graus com ela."
+      }
+    ]
+  },
+  {
+    "pergunta": "Em Relações Métricas no Triângulo Retângulo, o que significa na prática a fórmula h² = m . n?",
+    "dificuldade": "Média",
+    "respostaCard": "B) Significa que a altura relativa à hipotenusa, elevada ao quadrado, é igual ao produto (multiplicação) das projeções ortogonais dos catetos.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Na relação métrica expressa por $h^2 = m \\cdot n$, a letra 'h' representa a altura que desce lá do ângulo reto superior e 'corta' a hipotenusa embaixo. As letras 'm' e 'n' são os dois pedaços nos quais a hipotenusa foi cortada por essa linha da altura. A regra trigonométrica garante que, se você multiplicar o tamanho físico desses dois pedaços menores (m vezes n), o resultado será cravado ao tamanho da altura elevada ao quadrado.\n\n☀️ Exemplo do Cotidiano: Imagine o 'm' e o 'n' como se fossem as sombras que os catetos fazem no chão. Se a hipotenusa for o chão do quintal e o sol estiver bem no alto do céu, os lados inclinados (catetos) projetarão sombras no chão. Se você multiplicar o tamanho dessas duas sombras, você acha a altura do telhado ao quadrado.",
+    "glossario": [
+      {
+        "conceito": "Relações Métricas",
+        "explicacao": "O conjunto de fórmulas matemáticas específicas que conectam e relacionam os tamanhos da altura, das projeções e dos catetos dentro de um mesmo triângulo retângulo."
+      },
+      {
+        "conceito": "Projeção Ortogonal ('m' e 'n')",
+        "explicacao": "Geometricamente falando, é a 'sombra' que um segmento de reta faz sobre o outro quando iluminado por uma luz perfeitamente perpendicular."
+      },
+      {
+        "conceito": "Produto",
+        "explicacao": "Na matemática, a palavra 'produto' sempre se refere ao resultado de uma conta de multiplicação."
+      }
+    ],
+    "opcoes": [
+      "A) O Teorema de Pitágoras invertido",
+      "B) Que a altura ao quadrado é igual à multiplicação das duas projeções na hipotenusa",
+      "C) A área do triângulo",
+      "D) A soma dos catetos"
+    ]
+  },
+  {
+    "pergunta": "Em um triângulo retângulo, qual relação métrica permite encontrar o valor de um cateto conhecendo apenas o tamanho da hipotenusa inteira e da projeção desse próprio cateto?",
+    "dificuldade": "Média",
+    "respostaCard": "B) $b^2 = a \\cdot m$. O quadrado de um cateto é igual ao produto (multiplicação) da hipotenusa pela projeção (sombra) dele mesmo.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Essa relação métrica prova que o tamanho de um cateto está diretamente amarrado à 'sombra' que ele faz no chão. Se chamarmos a hipotenusa de $a$, o cateto de $b$ e a sua projeção ortogonal de $m$, a fórmula diz que $b^2 = a \\cdot m$. Da mesma forma, para o outro lado, $c^2 = a \\cdot n$. linkImagem:https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/11/1-triangulos-semelhantes.jpg\n\n🔦 Exemplo do Cotidiano: Imagine a hipotenusa como o asfalto e o cateto como um poste torto. Ao meio-dia, o sol bate reto e o poste faz uma sombra ($m$) no asfalto. Se você multiplicar o tamanho dessa sombra pelo tamanho total da rua ($a$), você descobre o tamanho do poste ao quadrado!",
+    "glossario": [
+      {
+        "conceito": "Projeção Ortogonal",
+        "explicacao": "A 'sombra' que um lado do triângulo faz sobre o outro quando iluminado em um ângulo de 90 graus."
+      },
+      {
+        "conceito": "Relações Métricas",
+        "explicacao": "Equações matemáticas derivadas da semelhança de triângulos que servem como atalhos para descobrir medidas sem usar graus ou ângulos."
+      },
+      {
+        "conceito": "Produto",
+        "explicacao": "O resultado final de uma operação de multiplicação."
+      }
+    ],
+    "opcoes": [
+      "A) $a^2 = b^2 + c^2$",
+      "B) $b^2 = a \\cdot m$",
+      "C) $h^2 = m \\cdot n$",
+      "D) $a \\cdot h = b \\cdot c$"
+    ]
+  },
+  {
+    "pergunta": "Pela tabela trigonométrica, o seno de 30° é exatamente igual a $1/2$. Na prática geométrica, o que isso significa sobre a proporção dos lados do triângulo retângulo?",
+    "dificuldade": "Fácil",
+    "respostaCard": "Significa que, em qualquer triângulo retângulo que tenha um ângulo de 30°, o Cateto Oposto sempre medirá exatamente a metade do tamanho da Hipotenusa.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Lembre-se do macete SOH (Seno = Oposto / Hipotenusa). Se a matemática diz que o resultado dessa divisão em um ângulo de 30° é sempre $1/2$ (ou $0,5$), significa que o número de cima (oposto) cabe duas vezes no número de baixo (hipotenusa). É uma proporção cravada, independente do tamanho do desenho!\n\n🛹 Exemplo do Cotidiano: Se o arquiteto projetar uma rampa de skate (hipotenusa) que tenha um ângulo de inclinação de 30° com o chão e a rampa for construída com 10 metros de comprimento, você já sabe automaticamente que a altura máxima lá na ponta (o cateto oposto) será de exatos 5 metros (a metade).",
+    "glossario": [
+      {
+        "conceito": "Seno",
+        "explicacao": "A razão (divisão) entre a medida do cateto oposto ao ângulo e a medida da hipotenusa."
+      },
+      {
+        "conceito": "Proporção Constante",
+        "explicacao": "Uma regra matemática que garante que, se você mantiver o ângulo de 30°, não importa se o triângulo tem o tamanho de um caderno ou de um prédio, a relação de 'metade' sempre funcionará."
+      }
+    ]
+  },
+  {
+    "pergunta": "Qual é o valor da tangente de 45° e o que esse resultado revela magicamente sobre o tamanho dos catetos do triângulo retângulo?",
+    "dificuldade": "Média",
+    "respostaCard": "B) $1$. Se a tangente é $1$, o cateto oposto e o cateto adjacente têm exatamente o mesmo tamanho.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Tangente = Oposto / Adjacente (macete TOA). Pense na matemática básica: a única forma de uma divisão dar o resultado $1$ é se você dividir um número por ele mesmo (tipo $5/5 = 1$ ou $10/10 = 1$). Então, se $\\tan(45°) = 1$, significa que o Cateto Oposto é do mesmo tamanho do Cateto Adjacente! linkImagem:https://files.cursoenemgratuito.com.br/uploads/2020/08/Quadrado-dividido-na-diagonal-formando-angulos-notaveis-de-45o.jpg\n\n📐 Exemplo do Cotidiano: Ao desenhar um triângulo com 45°, você na verdade está desenhando exatamente a metade de um quadrado perfeito cortado na diagonal. Como todos os lados de um quadrado são iguais, as duas 'paredes' que sobraram no triângulo (os catetos) mantêm tamanhos idênticos.",
+    "glossario": [
+      {
+        "conceito": "Tangente",
+        "explicacao": "A única relação trigonométrica básica que não utiliza a hipotenusa na conta, dividindo apenas um cateto pelo outro."
+      },
+      {
+        "conceito": "Triângulo Retângulo Isósceles",
+        "explicacao": "O triângulo que possui um ângulo de 90° e dois lados idênticos (os catetos). Obrigatoriamente, seus ângulos agudos são de 45°."
+      }
+    ],
+    "opcoes": [
+      "A) $\\sqrt{3}$, a hipotenusa é maior.",
+      "B) $1$, os dois catetos têm o mesmo tamanho.",
+      "C) $\\sqrt{2}/2$, os catetos são o dobro.",
+      "D) $0$, o triângulo não tem altura."
+    ]
+  },
+  {
+    "pergunta": "Em um triângulo retângulo, se sabemos que o seno de um dos ângulos agudos (vamos chamar de $\\alpha$) é igual a $0,6$, qual será o valor do cosseno do outro ângulo agudo (vamos chamar de $\\beta$)?",
+    "dificuldade": "Difícil",
+    "respostaCard": "C) $0,6$. O seno de um ângulo é sempre igual ao cosseno do seu ângulo complementar.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Esse é um dos conceitos mais cobrados e que mais confunde os alunos! Em um triângulo retângulo, os dois ângulos agudos somam 90° (são complementares). O lado que atua como Cateto Oposto para o ângulo $\\alpha$ é fisicamente a mesma parede que serve de Cateto Adjacente para o ângulo $\\beta$. Como a hipotenusa nunca muda, a conta $\\sin(\\alpha) = Oposto/Hipotenusa$ usa os exatos mesmos números que a conta $\\cos(\\beta) = Adjacente/Hipotenusa$. Logo, $\\sin(\\alpha) = \\cos(\\beta)$.\n\n💡 Macete de Prova: Se eles somam 90°, o Seno de um é o Cosseno do outro. É por isso que, na tabela de ângulos notáveis, o Seno de 30° ($1/2$) é idêntico ao Cosseno de 60° ($1/2$)!",
+    "glossario": [
+      {
+        "conceito": "Ângulos Complementares",
+        "explicacao": "Dois ângulos que juntos formam exatos 90 graus. No triângulo retângulo, os dois ângulos que não são o reto são sempre complementares."
+      },
+      {
+        "conceito": "Cofunção",
+        "explicacao": "A relação matemática que explica por que a função 'Cosseno' tem esse nome (é o 'Seno' do ângulo 'Complementar')."
+      }
+    ],
+    "opcoes": [
+      "A) $0,4$",
+      "B) $0,8$",
+      "C) $0,6$",
+      "D) $1,0$"
+    ]
+  },
+  {
+    "pergunta": "Como podemos usar a fórmula métrica $a \\cdot h = b \\cdot c$ para encontrar a altura do triângulo retângulo sem precisar descobrir o tamanho das projeções no chão?",
+    "dificuldade": "Média",
+    "respostaCard": "Multiplicando a hipotenusa pela altura, o resultado será obrigatoriamente igual à multiplicação de um cateto pelo outro. É um atalho poderoso.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: A relação $a \\cdot h = b \\cdot c$ vem direto do cálculo de Área do Triângulo ($Base \\times Altura / 2$). Se você deitar o triângulo sobre a hipotenusa ($a$), ela vira a base, e a altura do desenho é $h$. Se você puser o triângulo de pé em cima de um cateto ($b$), ele vira a base, e a altura passa a ser o outro cateto reto ($c$). Como a área (o espaço que o triângulo ocupa) é a mesma não importa como ele está deitado, $a \\cdot h$ tem que ser igual a $b \\cdot c$. linkImagem:https://dicasdecalculo.com.br/wp-content/uploads/2016/07/triangulo-retangulo.jpg\n\n💡 Macete de Prova: Leia a fórmula $a \\cdot h = b \\cdot c$ como a frase 'Ah = Boca'. Isso ajuda a lembrar rapidamente na hora do nervosismo!",
+    "glossario": [
+      {
+        "conceito": "Altura Relativa à Hipotenusa ($h$)",
+        "explicacao": "A reta que nasce no vértice de 90° e desce perpendicularmente até atingir a hipotenusa."
+      },
+      {
+        "conceito": "Área do Triângulo",
+        "explicacao": "O espaço de superfície interna da figura, que no triângulo retângulo pode ser calculado multiplicando os dois catetos e dividindo por dois."
+      }
+    ]
+  },
+  {
+    "pergunta": "Ao traçar a linha da altura relativa à hipotenusa por dentro da figura, quantos triângulos retângulos ao todo passamos a ter no desenho para analisar?",
+    "dificuldade": "Fácil",
+    "respostaCard": "C) 3. O triângulo grande original passa a conter dois triângulos menores dentro dele.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Quando desenhamos a altura ($h$), essa linha atinge a hipotenusa formando novos ângulos de 90 graus no chão. Com isso, o triângulo original ('o pai') é fatiado em dois triângulos menores ('os filhos'). A parte incrível é que todos esses três triângulos possuem ângulos internos iguais, o que significa que são 100% proporcionais uns aos outros! linkImagem:https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/11/1-triangulos-semelhantes.jpg\n\n🍕 Exemplo do Cotidiano: É como cortar uma fatia de pizza perfeita exatamente ao meio usando uma faca reta do topo até a crosta. Você passa a ter a visão de três pizzas: as duas fatias pequenas separadas, e o formato original da fatia grande caso você junte as duas novamente.",
+    "glossario": [
+      {
+        "conceito": "Vértice",
+        "explicacao": "Os 'cantos' ou 'quinas' da figura geométrica, onde as linhas dos lados se encontram."
+      },
+      {
+        "conceito": "Triângulos Semelhantes",
+        "explicacao": "Figuras geométricas que têm o mesmo formato exato (mesmos ângulos), mas escalas de tamanho diferentes, como uma miniatura."
+      }
+    ],
+    "opcoes": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ]
+  },
+  {
+    "pergunta": "Se os dois catetos de um triângulo retângulo medem exatamente 1 cm e 1 cm, qual é a medida da sua hipotenusa em centímetros?",
+    "dificuldade": "Fácil",
+    "respostaCard": "C) $\\sqrt{2}$ cm. Aplicando o Teorema de Pitágoras, chegamos rapidamente na raiz de 2.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: A hipotenusa ($a$) ao quadrado é igual à soma do quadrado dos catetos. Montando a fórmula temos: $a^2 = 1^2 + 1^2$. Como $1 \\cdot 1 = 1$, a soma vira $a^2 = 1 + 1$. Chegamos em $a^2 = 2$. Para tirar o 'quadrado' do $a$, passamos para o outro lado como raiz, logo $a = \\sqrt{2}$. linkImagem:https://files.cursoenemgratuito.com.br/uploads/2020/08/Quadrado-dividido-na-diagonal-formando-angulos-notaveis-de-45o.jpg\n\n💡 Macete de Prova: Esse triângulo é a exata metade de um quadrado de lado 1. Lembre-se sempre da regra de ouro geométrica: 'A diagonal de qualquer quadrado é sempre igual ao Lado vezes a Raiz de 2 ($L\\sqrt{2}$)'. Como o lado é 1, a diagonal (hipotenusa) é apenas $\\sqrt{2}$.",
+    "glossario": [
+      {
+        "conceito": "Raiz Quadrada ($\\sqrt{x}$)",
+        "explicacao": "A operação inversa de elevar ao quadrado. Significa descobrir qual número, multiplicado por ele mesmo, dá o resultado que está dentro da raiz."
+      },
+      {
+        "conceito": "Diagonal do Quadrado",
+        "explicacao": "A distância em linha reta entre dois cantos opostos de um quadrado. Ela sempre forma a hipotenusa de um triângulo retângulo isósceles."
+      }
+    ],
+    "opcoes": [
+      "A) $1$ cm",
+      "B) $2$ cm",
+      "C) $\\sqrt{2}$ cm",
+      "D) $\\sqrt{3}$ cm"
+    ]
+  },
+  {
+    "pergunta": "Na teoria, por que dizemos na geometria que todas as 'Relações Métricas' do triângulo retângulo são, na verdade, derivadas apenas do conceito de 'Semelhança de Triângulos'?",
+    "dificuldade": "Difícil",
+    "respostaCard": "Porque ao traçar a altura da figura, criamos 3 triângulos com ângulos idênticos. As fórmulas métricas nasceram de fazer 'Regras de Três' cruzando os lados desses triângulos.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Nenhuma relação métrica (como $h^2 = m \\cdot n$ ou $b^2 = a \\cdot m$) foi inventada do nada. Quando se comprovou que os três triângulos do desenho (o grande, o médio e o pequeno) têm os mesmos ângulos e são matematicamente semelhantes, os matemáticos começaram a montar frações de proporção. Ao multiplicar essas frações em formato de 'X' (cruzamento), as equações complexas nasceram sozinhas! linkImagem:https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/11/1-triangulos-semelhantes.jpg\n\n🧩 Exemplo do Cotidiano: Imagine usar a escala de um mapa. Se no mapa a rua tem $2$ cm e o carro tem $1$ cm, na vida real, se o carro tem $4$ metros, a rua obrigatoriamente terá $8$ metros. Você cruzou as informações e descobriu a realidade. As relações métricas são apenas essas escalas mapeadas em fórmulas definitivas.",
+    "glossario": [
+      {
+        "conceito": "Derivação Matemática",
+        "explicacao": "O processo de usar uma verdade muito simples (como a regra de três) para provar e criar fórmulas super complexas."
+      },
+      {
+        "conceito": "Proporcionalidade",
+        "explicacao": "A relação constante entre grandezas. Se um triângulo tem lados que são exatamente o dobro do outro, dizemos que a proporção entre eles é de 2 para 1."
+      }
+    ]
+  },
+  {
+    "pergunta": "Pela tabela trigonométrica, o cosseno de 60° é igual a $1/2$. Geometricamente, isso significa que qual lado do triângulo é exatamente a metade da hipotenusa?",
+    "dificuldade": "Média",
+    "respostaCard": "D) O cateto adjacente. O cosseno relaciona apenas o lado que está 'encostado' no ângulo com a hipotenusa.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Para entender isso, precisamos evocar o macete CAH (Cosseno = Cateto Adjacente / Hipotenusa). Se a conta do cosseno de 60° resulta na fração $\\frac{1}{2}$ (ou seja, a metade), a matemática nos afirma de forma absoluta que a parede que toca o ângulo de 60° (o adjacente) mede exatamente a metade do comprimento da rampa (a hipotenusa).\n\n🪜 Exemplo do Cotidiano: Se você tiver uma escada de pintor (daquelas de abrir) com pernas de 2 metros de comprimento (hipotenusa) e a abrir até que o ângulo na base chegue em 60°, a distância do pé da escada até o centro do chão abaixo dela (cateto adjacente) será perfeitamente de 1 metro.",
+    "glossario": [
+      {
+        "conceito": "Cosseno",
+        "explicacao": "A razão trigonométrica que divide o tamanho do cateto que toca o ângulo estudado pelo tamanho da hipotenusa."
+      },
+      {
+        "conceito": "Fração ($1/2$)",
+        "explicacao": "Representação matemática de uma parte de um todo. $1/2$ significa literalmente que o elemento superior equivale a 50% do elemento inferior."
+      }
+    ],
+    "opcoes": [
+      "A) O cateto oposto",
+      "B) A altura",
+      "C) A projeção",
+      "D) O cateto adjacente"
+    ]
+  },
+  {
+    "pergunta": "Durante a prova, se você esquecer a fórmula da relação métrica $b^2 = h^2 + m^2$, que raciocínio simples você pode usar para descobrir o valor desse cateto utilizando o Teorema de Pitágoras?",
+    "dificuldade": "Média",
+    "respostaCard": "Basta olhar apenas para o triângulo menor desenhado por dentro! Nele, o cateto original vira a 'hipotenusa', enquanto a altura e a projeção viram os dois 'catetos'.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Isso é o ápice da visão geométrica! Quando traçamos a altura no triângulo grande, formamos um triângulo pequeno que também possui um ângulo de 90° (onde a altura toca o chão). Se esse triângulo menor é um triângulo retângulo autônomo, ele também tem direito de usar o Teorema de Pitágoras! linkImagem:https://dicasdecalculo.com.br/wp-content/uploads/2016/07/triangulo-retangulo.jpg\nNesse desenho interno, a altura ($h$) é um cateto, a projeção ($m$) é o outro cateto, e o cateto do triângulo grandão original ($b$) atua como a hipotenusa da figura menor. Por isso que, aplicando Pitágoras só na figura pequena, a fórmula mágica $b^2 = h^2 + m^2$ surge naturalmente!\n\n💡 Macete de Prova: Nunca decore fórmulas métricas com quadrados do nada. Se a equação tem a soma de dois elementos ao quadrado resultando em outro elemento ao quadrado, ela é o Teorema de Pitágoras disfarçado em outra região da figura!",
+    "glossario": [
+      {
+        "conceito": "Aplicação Sucessiva",
+        "explicacao": "A tática matemática de aplicar a mesma regra básica (como Pitágoras) várias vezes em partes diferentes da mesma figura para descobrir todas as medidas."
+      },
+      {
+        "conceito": "Autonomia Geométrica",
+        "explicacao": "O fato de que, ao cortar uma figura e formar figuras menores válidas, as novas figuras obedecem às mesmas leis universais que a figura grandona original."
+      }
+    ]
+  },
+  {
+    "pergunta": "Qual é o valor numérico do cosseno de 45° e qual a sua curiosa relação com o seno desse mesmo ângulo?",
+    "dificuldade": "Média",
+    "respostaCard": "O cosseno de 45° é $\\frac{\\sqrt{2}}{2}$. A curiosidade geométrica é que ele é exatamente igual ao seno de 45°.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Pela música da tabela trigonométrica, tanto o seno quanto o cosseno de 45° valem $\\frac{\\sqrt{2}}{2}$. Mas por que isso acontece? Lembre-se que um triângulo com um ângulo de 45° é, na verdade, a metade de um quadrado cortado na diagonal. linkImagem:https://files.cursoenemgratuito.com.br/uploads/2020/08/Quadrado-dividido-na-diagonal-formando-angulos-notaveis-de-45o.jpg Como o quadrado tem os lados iguais, o Cateto Oposto e o Cateto Adjacente desse triângulo têm exatamente a mesma medida. Portanto, as contas $\\frac{Oposto}{Hipotenusa}$ e $\\frac{Adjacente}{Hipotenusa}$ usam os mesmos números e chegam ao mesmo resultado!\n\n💡 Macete de Prova: Se a questão falar em um ângulo de 45°, sorria! O seno é igual ao cosseno, a tangente vale $1$ perfeito, e os catetos têm a mesma medida. É o ângulo mais 'simétrico' que existe.",
+    "glossario": [
+      {
+        "conceito": "Simetria",
+        "explicacao": "Quando as partes de uma figura geométrica são idênticas. No triângulo retângulo de 45°, a simetria ocorre nos dois catetos."
+      },
+      {
+        "conceito": "Cosseno",
+        "explicacao": "A razão entre a medida do cateto adjacente (que toca o ângulo) e a hipotenusa."
+      },
+      {
+        "conceito": "Frações Irracionais",
+        "explicacao": "Frações que possuem uma raiz que não é exata, como a $\\sqrt{2}$. Deixamos a raiz indicada na resposta final em vez de usar um número com várias casas decimais."
+      }
+    ]
+  },
+  {
+    "pergunta": "Se um dos ângulos agudos de um triângulo retângulo mede exatamente 30°, qual é obrigatoriamente a medida do outro ângulo agudo?",
+    "dificuldade": "Fácil",
+    "respostaCard": "C) 60°. Porque os dois ângulos agudos precisam sempre somar 90° (são complementares).",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: A soma de todos os ângulos internos de um triângulo sempre resulta em 180°. Se o triângulo é retângulo, o ângulo reto já gastou 90° dessa cota. Faltam exatamente 90° para dividir entre os dois ângulos que sobram nas pontas. Se um deles já pegou 30° para si, o outro fica com o resto: $90° - 30° = 60°$. linkImagem:https://dicasdecalculo.com.br/wp-content/uploads/2016/07/triangulo-retangulo.jpg\n\n🍰 Exemplo do Cotidiano: Imagine uma verba de 180 reais para dividir entre 3 pessoas. A primeira pessoa (o ângulo reto) tem um cargo de chefia e já pega 90 reais garantidos. Sobram 90 reais. Se a segunda pessoa pegar 30 reais, a última pessoa automaticamente só poderá ficar com 60 reais. A matemática é exata.",
+    "glossario": [
+      {
+        "conceito": "Ângulos Complementares",
+        "explicacao": "Par de ângulos que, quando somados, fecham o valor exato de 90 graus."
+      },
+      {
+        "conceito": "Soma dos Ângulos Internos",
+        "explicacao": "A propriedade inviolável da geometria plana que garante que a união dos três ângulos de um triângulo é igual a meia volta em um círculo (180°)."
+      },
+      {
+        "conceito": "Agudo",
+        "explicacao": "Termo para ângulos 'pontiagudos', menores que um ângulo reto de 90°."
+      }
+    ],
+    "opcoes": [
+      "A) 30°",
+      "B) 45°",
+      "C) 60°",
+      "D) 90°"
+    ]
+  },
+  {
+    "pergunta": "Em um triângulo retângulo, a altura relativa à hipotenusa mede 6 cm e uma das projeções ortogonais mede 4 cm. Qual é o valor da outra projeção?",
+    "dificuldade": "Média",
+    "respostaCard": "C) 9 cm. Utiliza-se a relação métrica $h^2 = m \\cdot n$.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: A fórmula mágica aqui é a relação métrica da altura: $h^2 = m \\cdot n$. Sabemos que a altura ($h$) é $6$ e uma das 'sombras' ($m$) é $4$. Substituindo na fórmula, temos: $6^2 = 4 \\cdot n$. Elevando a altura ao quadrado, ficamos com $36 = 4 \\cdot n$. Passando o $4$ dividindo ($36 / 4$), descobrimos que o pedaço $n$ vale $9$ cm! linkImagem:https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/11/1-triangulos-semelhantes.jpg\n\n💡 Macete de Prova: Para memorizar a fórmula $h^2 = m \\cdot n$, lembre-se da frase 'Homenzinho da Mônica e do Cebolinha' ou apenas visualize a figura de um T de cabeça para baixo: a linha vertical ao quadrado é igual à multiplicação das duas linhas horizontais que estão no chão.",
+    "glossario": [
+      {
+        "conceito": "Altura Relativa à Hipotenusa ($h$)",
+        "explicacao": "O segmento de reta que cruza o triângulo, saindo do ângulo reto e 'batendo' no lado da hipotenusa em um ângulo de 90°."
+      },
+      {
+        "conceito": "Projeção ($m$ e $n$)",
+        "explicacao": "Os dois segmentos menores nos quais a hipotenusa foi dividida após a linha da altura tocar nela."
+      },
+      {
+        "conceito": "Equação de 1º Grau",
+        "explicacao": "O passo algébrico de isolar a letra '$n$' passando o número $4$ para o outro lado fazendo a operação inversa (divisão)."
+      }
+    ],
+    "opcoes": [
+      "A) 6 cm",
+      "B) 8 cm",
+      "C) 9 cm",
+      "D) 10 cm"
+    ]
+  },
+  {
+    "pergunta": "Se a tangente de um ângulo em um triângulo retângulo é igual a $\\frac{3}{4}$, qual é o valor do seno desse mesmo ângulo?",
+    "dificuldade": "Difícil",
+    "respostaCard": "A) $\\frac{3}{5}$. Essa questão exige misturar Trigonometria (TOA) com o Teorema de Pitágoras.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Essa é clássica de vestibulares! A tangente é a divisão do Cateto Oposto pelo Cateto Adjacente (macete TOA). Se a tangente é $\\frac{3}{4}$, significa que, proporcionalmente, o Oposto vale $3$ e o Adjacente vale $4$. O que falta? A Hipotenusa! \nAplicando Pitágoras ($a^2 = b^2 + c^2$), temos $a^2 = 3^2 + 4^2$, que resulta em $a^2 = 25$, logo a hipotenusa ($a$) é $5$ (o famoso triângulo pitagórico 3-4-5). \nComo a pergunta pede o Seno (macete SOH: Oposto / Hipotenusa), basta pegar o Oposto ($3$) e dividir pela Hipotenusa que acabamos de descobrir ($5$). O resultado é $\\frac{3}{5}$!\n\n💡 Macete de Prova: Viu um triângulo retângulo envolvendo os números 3 e 4? A hipotenusa será 5. Poupe tempo de cálculo e vá direto para a resposta do Seno ($3/5$) ou Cosseno ($4/5$).",
+    "glossario": [
+      {
+        "conceito": "Razão Trigonométrica",
+        "explicacao": "A comparação entre dois lados do triângulo na forma de fração. A tangente compara os dois catetos; o seno compara um cateto com a hipotenusa."
+      },
+      {
+        "conceito": "Triângulo Pitagórico 3-4-5",
+        "explicacao": "O triângulo retângulo mais famoso da matemática, cujos lados são números inteiros seguidos ou seus múltiplos (ex: 6-8-10)."
+      },
+      {
+        "conceito": "Proporção",
+        "explicacao": "A relação matemática que garante que, mesmo que os lados fossem $30$, $40$ e $50$, a fração final simplificada continuaria sendo a mesma ($3/5$)."
+      }
+    ],
+    "opcoes": [
+      "A) $3/5$",
+      "B) $4/5$",
+      "C) $1$",
+      "D) $3/7$"
+    ]
+  },
+  {
+    "pergunta": "Um ciclista pedala 6 km para o Norte, vira à direita e pedala 8 km para o Leste. Qual a distância em linha reta do ponto de partida até onde ele está agora?",
+    "dificuldade": "Fácil",
+    "respostaCard": "A) 10 km. O trajeto formou um triângulo retângulo e resolvemos com o Teorema de Pitágoras.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Ao pedalar para o Norte e virar de forma brusca para o Leste, o ciclista fez uma curva exata de 90 graus (ângulo reto). O caminho que ele andou representa os dois catetos do triângulo ($6$ e $8$). A 'linha reta' do ponto final até o início é a nossa hipotenusa. Aplicando a fórmula: $a^2 = 6^2 + 8^2$, temos $a^2 = 36 + 64$, que soma $100$. A raiz quadrada de $100$ é $10$. linkImagem:https://s4.static.brasilescola.uol.com.br/be/2023/02/formula-e-demonstracao-do-teorema-de-pitagoras.jpg\n\n🚴‍♂️ Exemplo do Cotidiano: É como andar vários quarteirões em formato de 'L' pelas ruas de uma cidade (que são os catetos). A distância em linha reta (a hipotenusa) seria o trajeto feito por um helicóptero voando por cima dos prédios, o que sempre é um atalho (e por isso a hipotenusa de $10$ é menor que a soma de caminhar $6+8=14$).",
+    "glossario": [
+      {
+        "conceito": "Deslocamento Vetorial (Física/Matemática)",
+        "explicacao": "A menor distância possível entre um ponto A e um ponto B, representada por uma reta. Na geometria, essa é a nossa hipotenusa."
+      },
+      {
+        "conceito": "Distância Percorrida",
+        "explicacao": "Todo o trajeto que a pessoa fez caminhando pelas ruas (que na questão foi a soma dos catetos: $6 + 8 = 14$ km)."
+      },
+      {
+        "conceito": "Múltiplos Pitagóricos",
+        "explicacao": "Como os catetos 6 e 8 são exatamente o dobro de 3 e 4, a hipotenusa será automaticamente o dobro de 5 (ou seja, 10). É o triângulo 3-4-5 em escala dobrada!"
+      }
+    ],
+    "opcoes": [
+      "A) 10 km",
+      "B) 12 km",
+      "C) 14 km",
+      "D) 100 km"
+    ]
+  },
+  {
+    "pergunta": "Na demonstração do Teorema de Pitágoras usando áreas, se o quadrado colado em um cateto tem área de $9 cm^2$ e o quadrado colado na hipotenusa tem área de $25 cm^2$, qual a área do quadrado do outro cateto?",
+    "dificuldade": "Média",
+    "respostaCard": "B) $16 cm^2$. Porque Área da Hipotenusa = Soma das Áreas dos Catetos.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Essa questão é uma 'pegadinha' clássica que derruba muita gente! O Teorema diz que $a^2 = b^2 + c^2$. O termo $a^2$ significa literalmente 'Área do quadrado de lado a'. A questão JÁ te deu as áreas prontas! Ou seja, você NÃO deve elevar os números ao quadrado de novo. A fórmula fica: $25 = 9 + Área\\_do\\_Cateto$. Isolando, temos $25 - 9 = 16$. linkImagem:https://s1.static.brasilescola.uol.com.br/be/e/demonstracoes%20do%20teorema%20de%20pitagoras%201.jpg\n\n🧩 Exemplo do Cotidiano: Imagine que você comprou um piso quadrado enorme para a sala que cobriu $25 m^2$ da casa (hipotenusa). Você sabe que esse piso foi construído derretendo e juntando dois pisos menores (os catetos). Se um dos pisos menores cobria $9 m^2$, é lógico que o outro piso teve que contribuir com $16 m^2$ para que a fusão chegasse aos $25$ totais.",
+    "glossario": [
+      {
+        "conceito": "Área ($L^2$)",
+        "explicacao": "A superfície plana de uma figura geométrica 2D. Quando a matemática diz $c^2$, ela está calculando a área de um quadrado cujo lado mede $c$."
+      },
+      {
+        "conceito": "Equação de Equivalência",
+        "explicacao": "O raciocínio lógico que garante que a soma dos espaços ocupados pelos dois quadrados menores encaixa perfeitamente dentro do espaço do quadrado grandão."
+      },
+      {
+        "conceito": "Subtração",
+        "explicacao": "A operação oposta à soma, usada na fórmula para descobrir o pedaço que estava faltando ($25 - 9 = 16$)."
+      }
+    ],
+    "opcoes": [
+      "A) $4 cm^2$",
+      "B) $16 cm^2$",
+      "C) $34 cm^2$",
+      "D) $144 cm^2$"
+    ]
+  },
+  {
+    "pergunta": "Uma escada de 4 metros de comprimento está encostada em um muro reto, formando com o chão plano um ângulo de 60°. Qual a distância exata entre o pé da escada e a base do muro?",
+    "dificuldade": "Média",
+    "respostaCard": "B) $2$ m. Usamos o Cosseno de 60° para descobrir a medida do chão.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Visualize a cena: a escada é inclinada, então ela é a Hipotenusa ($4$ metros). O chão é a linha que 'encosta' no ângulo de 60°, logo, ele é o Cateto Adjacente. O macete 'CAH' diz que Cosseno = Adjacente / Hipotenusa. Pela música da tabela, o cosseno de 60° é $\\frac{1}{2}$ (meio). \nMontando a conta: $\\frac{1}{2} = \\frac{Adjacente}{4}$. Para resolver, basta passar o $4$ para o outro lado multiplicando: $4 \\cdot \\frac{1}{2} = 2$. O pé da escada está a 2 metros do muro! linkImagem:https://dicasdecalculo.com.br/wp-content/uploads/2016/07/triangulo-retangulo.jpg\n\n💡 Macete de Prova: É uma regra de ouro matemática do triângulo retângulo! Se o ângulo no chão for de 60°, o comprimento do chão (cateto adjacente) será SEMPRE a metade exata do comprimento da escada (hipotenusa).",
+    "glossario": [
+      {
+        "conceito": "Cosseno de 60°",
+        "explicacao": "O valor tabelado que equivale a $0,5$ (ou a fração $1/2$), representando que o lado de baixo tem a metade do tamanho do lado inclinado."
+      },
+      {
+        "conceito": "Hipotenusa em Aplicações Reais",
+        "explicacao": "Nas questões do dia a dia, a hipotenusa geralmente assume o papel de escadas, rampas de acesso, escorregadores, fios esticados ou tirolesas."
+      },
+      {
+        "conceito": "Cateto Adjacente em Aplicações Reais",
+        "explicacao": "O 'chão', a 'distância' no solo, ou a 'sombra' do objeto projetada horizontalmente."
+      }
+    ],
+    "opcoes": [
+      "A) $1$ m",
+      "B) $2$ m",
+      "C) $2\\sqrt{3}$ m",
+      "D) $4$ m"
+    ]
+  },
+  {
+    "pergunta": "Sabendo que $\\sin^2(x) = 0,36$, qual é o valor numérico de $\\cos^2(x)$ utilizando a Relação Trigonométrica Fundamental?",
+    "dificuldade": "Difícil",
+    "respostaCard": "A) $0,64$. A soma dos quadrados do seno e do cosseno de um mesmo ângulo deve sempre resultar em 1 inteiro.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: A Relação Fundamental da Trigonometria crava que $\\sin^2(x) + \\cos^2(x) = 1$. Se a questão já informou que a primeira parte da conta (o seno ao quadrado) vale $0,36$, a equação se transforma em uma conta de padaria: $0,36 + \\cos^2(x) = 1$. \nPara descobrir o que falta, é só subtrair: $1,00 - 0,36 = 0,64$. \nAtenção: a questão pediu exatamente o valor de $\\cos^2(x)$, então a resposta para ali mesmo. Se a prova pedisse o cosseno normal sem o quadrado, teríamos que tirar a raiz quadrada de $0,64$, que seria $0,8$.\n\n💰 Exemplo do Cotidiano: Pense nisso como porcentagens que precisam fechar 100% de uma pizza inteira (o número 1). Se o Seno ao quadrado comeu 36% da pizza ($0,36$), automaticamente só restam 64% da pizza ($0,64$) para o Cosseno ao quadrado comer.",
+    "glossario": [
+      {
+        "conceito": "Relação Trigonométrica Fundamental",
+        "explicacao": "A equação-mestra $\\sin^2(x) + \\cos^2(x) = 1$, que une as duas principais linhas da trigonometria."
+      },
+      {
+        "conceito": "Números Decimais",
+        "explicacao": "A representação fracionária na base 10 (com vírgula). O número $1$ na matemática pode ser escrito como $1,00$ para facilitar cálculos de subtração com centavos."
+      },
+      {
+        "conceito": "Operação Inversa",
+        "explicacao": "O método de isolar a incógnita movendo o número que estava somando para o outro lado da igualdade fazendo a operação de subtração."
+      }
+    ],
+    "opcoes": [
+      "A) $0,64$",
+      "B) $0,8$",
+      "C) $0,36$",
+      "D) $1,0$"
+    ]
+  },
+  {
+    "pergunta": "A relação métrica extremamente simples '$a = m + n$' nos ensina uma verdade visual sobre o triângulo retângulo. O que ela significa na prática geométrica?",
+    "dificuldade": "Fácil",
+    "respostaCard": "Significa que o tamanho total da hipotenusa ($a$) é simplesmente a soma dos dois pedaços menores ($m$ e $n$) que foram cortados pela altura.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Muitas vezes os alunos ficam tão focados nas fórmulas com contas difíceis de ao quadrado ($h^2, b^2$) que esquecem do básico. Quando a altura desce sobre a hipotenusa ($a$), ela marca um ponto no asfalto dividindo a linha em dois pedaços, chamados de projeções ortogonais ($m$ e $n$). A geometria garante que se você pegar uma fita métrica e medir esses dois pedaços no chão e somá-los matematicamente ($m + n$), você tem a medida exata da hipotenusa inteira! linkImagem:https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/11/1-triangulos-semelhantes.jpg\n\n🥖 Exemplo do Cotidiano: É como uma baguete francesa inteira (a hipotenusa). Se você der um golpe reto de faca (a altura) que divida o pão em dois pedaços ($m$ e $n$), a soma do comprimento desses dois pedaços de pão juntos continuará sendo exatamente o tamanho do pão original inteiro.",
+    "glossario": [
+      {
+        "conceito": "Hipotenusa ($a$)",
+        "explicacao": "O maior lado do triângulo retângulo, que na relação atua como a linha base de comprimento total."
+      },
+      {
+        "conceito": "Projeções ($m$ e $n$)",
+        "explicacao": "Os dois segmentos de reta colineares criados na base do triângulo após o cruzamento com a altura."
+      },
+      {
+        "conceito": "Soma Algébrica",
+        "explicacao": "A operação matemática mais básica ($+$), reforçando o princípio de que 'o todo é igual à união de suas partes componentes'."
+      }
+    ]
+  },
+  {
+    "pergunta": "Ao observarmos o topo de um prédio sob um ângulo de inclinação de 45° a partir do nível do chão plano, a distância que estamos caminhando em direção ao prédio é igual, maior ou menor que a altura física do prédio?",
+    "dificuldade": "Média",
+    "respostaCard": "A distância que estamos do prédio é exatamente IGUAL à altura do prédio. A inclinação de 45° garante isso.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Essa é a aplicação real da Tangente de 45°! Lembre-se: Tangente = Oposto / Adjacente. O prédio em pé é o nosso 'Cateto Oposto'. O asfalto do chão que nos separa do prédio é o 'Cateto Adjacente'. Pela tabela trigonométrica notável, a $\\tan(45°)$ é igual a $1$. Na matemática das divisões, para o resultado ser 1, o número de cima e o de baixo precisam ser perfeitamente iguais. Logo, a Altura do Prédio é rigorosamente do mesmo tamanho da Distância no Chão. linkImagem:https://files.cursoenemgratuito.com.br/uploads/2020/08/Quadrado-dividido-na-diagonal-formando-angulos-notaveis-de-45o.jpg\n\n📐 Exemplo do Cotidiano: Se um engenheiro olha para o topo de uma torre com um teodolito medindo 45° de inclinação e seu assistente informa que eles estão a $50$ metros da porta da torre, o engenheiro não precisa fazer conta nenhuma: ele já sabe instantaneamente que a torre tem $50$ metros de altura. O triângulo retângulo formou a metade de um quadrado na vida real!",
+    "glossario": [
+      {
+        "conceito": "Tangente de 45°",
+        "explicacao": "O valor matemático padronizado que é sempre $1$, indicando simetria perfeita entre as duas paredes (catetos) do triângulo retângulo."
+      },
+      {
+        "conceito": "Linha de Visada (Ângulo de Elevação)",
+        "explicacao": "O conceito físico de levantar os olhos ou um aparelho de medição a partir da linha do horizonte para olhar para o topo de algo."
+      },
+      {
+        "conceito": "Proporção de Identidade",
+        "explicacao": "A prova matemática de que, num triângulo isósceles, $Oposto = Adjacente$, anulando a necessidade de usar o Teorema de Pitágoras para essa conta."
+      }
+    ]
+  },
+  {
+    "pergunta": "Em um triângulo retângulo, se conhecemos a medida da hipotenusa e da projeção de um dos catetos no chão, qual relação métrica usamos para encontrar a medida exata desse cateto?",
+    "dificuldade": "Fácil",
+    "respostaCard": "A) $c^2 = a \\cdot n$ (ou $b^2 = a \\cdot m$). O quadrado do cateto é igual à hipotenusa vezes a sombra (projeção) dele próprio.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Essa relação métrica é um atalho incrível. Ela afirma que não precisamos saber a altura ou o outro cateto para achar um lado do triângulo. Basta multiplicar o comprimento total da base (hipotenusa, $a$) pela pequena 'sombra' ortogonal que esse cateto faz sobre ela ($m$ ou $n$). O resultado será o tamanho do cateto ao quadrado! linkImagem:https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/11/1-triangulos-semelhantes.jpg\n\n🔦 Exemplo do Cotidiano: Imagine uma rua inteira iluminada ao meio-dia. A rua é a hipotenusa ($a$). Um poste levemente inclinado (cateto) faz uma sombra curta no asfalto ($n$). Se você multiplicar o tamanho dessa sombra pelo tamanho total da rua, descobrirá exatamente a medida do poste ao quadrado.",
+    "glossario": [
+      {
+        "conceito": "Projeção Ortogonal",
+        "explicacao": "A 'sombra' geométrica reta que um lado projeta sobre o outro. Representada nas fórmulas pelas letras 'm' e 'n'."
+      },
+      {
+        "conceito": "Relação Métrica Direta",
+        "explicacao": "Uma fórmula que conecta um cateto diretamente com o pedaço da hipotenusa que está logo abaixo dele."
+      }
+    ],
+    "opcoes": [
+      "A) $c^2 = a \\cdot n$",
+      "B) $h^2 = m \\cdot n$",
+      "C) $a^2 = b^2 + c^2$",
+      "D) $b \\cdot h = a \\cdot c$"
+    ]
+  },
+  {
+    "pergunta": "Um avião decola do chão subindo em linha reta e mantendo uma inclinação constante de 30° com o solo plano. Se quisermos descobrir a que altura o avião está do chão após voar alguns quilômetros, que operação usaremos?",
+    "dificuldade": "Média",
+    "respostaCard": "B) Seno. Porque a altura que queremos descobrir é o Cateto Oposto, e o caminho que o avião percorreu no ar é a Hipotenusa.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Lembre-se do macete SOH (Seno = Oposto / Hipotenusa). Na cena geométrica de um avião decolando, a trajetória inclinada dele rasgando as nuvens é a Hipotenusa. A altitude (distância vertical reta até o solo) é o Cateto Oposto ao ângulo de decolagem. Como sabemos que o $\\sin(30°) = 1/2$, a altura do avião será sempre exatamente a metade da distância que ele percorreu no ar! linkImagem:https://dicasdecalculo.com.br/wp-content/uploads/2016/07/triangulo-retangulo.jpg\n\n✈️ Exemplo do Cotidiano: Se o painel do avião diz que ele voou $10$ km no ar desde a pista (sob um ângulo de 30°), o piloto sabe sem usar nenhum computador que a altitude atual da aeronave em relação ao solo é de exatos $5$ km (a metade).",
+    "glossario": [
+      {
+        "conceito": "Ângulo de Inclinação",
+        "explicacao": "O ângulo formado entre a linha horizontal do solo e a trajetória subida pelo objeto."
+      },
+      {
+        "conceito": "Seno (SOH)",
+        "explicacao": "A razão trigonométrica que relaciona a altura vertical (oposto) com a distância diagonal (hipotenusa)."
+      }
+    ],
+    "opcoes": [
+      "A) Cosseno",
+      "B) Seno",
+      "C) Tangente",
+      "D) Teorema de Pitágoras"
+    ]
+  },
+  {
+    "pergunta": "Utilizando a lógica das fórmulas básicas do triângulo retângulo, como podemos provar matematicamente que a Tangente de um ângulo é, na verdade, a divisão do seu Seno pelo seu Cosseno?",
+    "dificuldade": "Difícil",
+    "respostaCard": "Se dividirmos a fórmula do Seno (O/H) pela fórmula do Cosseno (A/H), as hipotenusas se anulam, sobrando apenas Oposto/Adjacente, que é a exata fórmula da Tangente.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Essa é uma demonstração algébrica linda que cai muito em vestibulares. Sabemos que $\\tan(x) = \\frac{Oposto}{Adjacente}$. \nAgora olhe para o Seno e o Cosseno. Se fizermos uma 'fração de frações': $\\frac{Seno}{Cosseno} = \\frac{\\frac{Oposto}{Hipotenusa}}{\\frac{Adjacente}{Hipotenusa}}$. \nNa matemática, ao dividir frações com o mesmo denominador (no caso, a Hipotenusa), podemos simplesmente cortá-los fora! O que sobra? Apenas $\\frac{Oposto}{Adjacente}$. Logo, está provado que $\\tan(x) = \\frac{\\sin(x)}{\\cos(x)}$.\n\n💡 Macete de Prova: Se uma questão maluca te der apenas os valores do Seno e do Cosseno de um ângulo misterioso e pedir a Tangente, não tente desenhar o triângulo. Basta dividir o valor do Seno pelo valor do Cosseno direto!",
+    "glossario": [
+      {
+        "conceito": "Identidade Tangencial",
+        "explicacao": "A regra trigonométrica que estabelece que a tangente de qualquer ângulo sempre será igual à divisão do seu seno pelo seu cosseno."
+      },
+      {
+        "conceito": "Simplificação de Frações",
+        "explicacao": "A técnica algébrica de cortar ou anular denominadores idênticos quando se está dividindo duas frações."
+      }
+    ]
+  },
+  {
+    "pergunta": "Se os lados de um triângulo retângulo medem 3, 4 e 5, e nós multiplicarmos todos os lados por 3 para desenhar um triângulo maior, o novo triângulo (9, 12, 15) continuará sendo retângulo? Por quê?",
+    "dificuldade": "Média",
+    "respostaCard": "Sim! Porque ao multiplicar todos os lados pelo mesmo número, criamos um 'triângulo semelhante' (uma ampliação perfeita) que mantém o ângulo de 90° intacto.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: O triângulo de lados 3, 4 e 5 é a base do Teorema de Pitágoras. Se você criar uma escala multiplicando tudo por uma constante (neste caso, o número $3$), os novos lados serão $9$, $12$ e $15$. Se testarmos no papel: $15^2 = 9^2 + 12^2 \\rightarrow 225 = 81 + 144 \\rightarrow 225 = 225$. A matemática bate perfeito! Qualquer múltiplo desse triângulo primitivo gera um novo triângulo retângulo. linkImagem:https://s4.static.brasilescola.uol.com.br/be/2023/02/formula-e-demonstracao-do-teorema-de-pitagoras.jpg\n\n🔍 Exemplo do Cotidiano: É como desenhar um esquadro escolar em uma folha A4 e depois pedir para uma gráfica imprimir o mesmo esquadro em um outdoor gigante na estrada (ampliação). O tamanho da peça mudou muito, mas a 'quina' reta de 90 graus tem que continuar perfeitamente reta para o desenho não deformar.",
+    "glossario": [
+      {
+        "conceito": "Proporcionalidade Direta",
+        "explicacao": "O princípio de multiplicar todas as medidas de uma forma geométrica pelo mesmo valor (fator de escala) para ampliá-la sem perder o formato original."
+      },
+      {
+        "conceito": "Múltiplos Pitagóricos",
+        "explicacao": "Conjuntos de números inteiros gerados a partir da tabuada do triângulo base 3-4-5 (como 6-8-10, 9-12-15, 30-40-50)."
+      }
+    ]
+  },
+  {
+    "pergunta": "O que acontece com os valores matemáticos do Seno e do Cosseno quando passamos do ângulo notável de 30° para o ângulo notável de 60° na tabela trigonométrica?",
+    "dificuldade": "Fácil",
+    "respostaCard": "Os valores se invertem (cruzam)! O seno de 30° é igual ao cosseno de 60°, e o cosseno de 30° é igual ao seno de 60°.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Como 30° e 60° somam 90°, eles são ângulos complementares dividindo o mesmo triângulo. A parede que funciona como Cateto Oposto para o ângulo lá de cima (30°) é fisicamente a mesma parede que serve de chão (Cateto Adjacente) para o ângulo lá de baixo (60°). Como a visão deles apenas trocou de lugar no desenho, as contas de Seno e Cosseno também trocam de resultado entre eles.\n\n🎵 Macete de Prova: É por isso que a música da tabela funciona tão bem! Na primeira linha você canta '1, 2, 3' e na segunda linha você canta a mesma coisa, só que de trás pra frente '3, 2, 1'. É a prova literal de que os valores apenas cruzaram de lugar!",
+    "glossario": [
+      {
+        "conceito": "Ângulos Complementares",
+        "explicacao": "Dois ângulos que, somados, dão exatamente 90 graus."
+      },
+      {
+        "conceito": "Inversão Trigonométrica",
+        "explicacao": "A propriedade de que o seno de um ângulo é idêntico ao cosseno do seu complemento geométrico."
+      }
+    ]
+  },
+  {
+    "pergunta": "Se as duas projeções ortogonais dos catetos de um triângulo medem 9 cm e 16 cm sobre a hipotenusa, qual é a medida da altura relativa à hipotenusa?",
+    "dificuldade": "Média",
+    "respostaCard": "A) 12 cm. Descobrimos isso multiplicando as duas projeções e tirando a raiz quadrada do resultado.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Utilizamos a relação métrica fundamental da altura: $h^2 = m \\cdot n$. \nSe as 'sombras' (projeções) medem $9$ e $16$, a fórmula fica $h^2 = 9 \\cdot 16$. \nMultiplicando, temos $h^2 = 144$. \nPara isolar o $h$, passamos o quadrado como raiz quadrada para o outro lado: $h = \\sqrt{144}$. Como $12 \\cdot 12$ é igual a $144$, a altura desse triângulo mede exatamente 12 cm. linkImagem:https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/11/1-triangulos-semelhantes.jpg",
+    "glossario": [
+      {
+        "conceito": "Projeções Ortogonais ($m$ e $n$)",
+        "explicacao": "Os dois pedaços de base gerados quando a altura desce sobre a hipotenusa."
+      },
+      {
+        "conceito": "Quadrado Perfeito",
+        "explicacao": "Um número que possui uma raiz quadrada exata e inteira (como o 144, que é raiz de 12)."
+      }
+    ],
+    "opcoes": [
+      "A) 12 cm",
+      "B) 15 cm",
+      "C) 25 cm",
+      "D) 144 cm"
+    ]
+  },
+  {
+    "pergunta": "Sabendo que as projeções de um triângulo retângulo medem 9 cm e 16 cm, qual será a medida do tamanho total da hipotenusa e do menor cateto, respectivamente?",
+    "dificuldade": "Difícil",
+    "respostaCard": "A) 25 cm e 15 cm. A hipotenusa é a soma das projeções (9+16=25) e o cateto é achado com a relação métrica $c^2 = a \\cdot m$.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Esta questão exige dois passos. Primeiro: O que é a hipotenusa inteira ($a$)? É só somar os dois pedaços no chão ($a = m + n$). Então, $a = 9 + 16 = 25$ cm. \nSegundo: Como achar o cateto menor ($c$) que fica por cima do pedaço de 9 cm? Usamos a relação $c^2 = a \\cdot m$. \nFica $c^2 = 25 \\cdot 9$. Isso dá $c^2 = 225$. Tirando a raiz quadrada de 225, achamos que o cateto $c$ mede $15$ cm!\n\n💡 Macete de Prova: Se a questão te der as duas projeções ($m$ e $n$), você tem absolutamente TUDO sobre o triângulo em mãos. Você soma para achar a hipotenusa e usa as fórmulas das letras para descobrir as três paredes restantes. É como montar um quebra-cabeça com gabarito.",
+    "glossario": [
+      {
+        "conceito": "Soma de Segmentos Colineares",
+        "explicacao": "O ato matemático de juntar dois pedaços de reta que estão na mesma linha para descobrir o tamanho total da reta."
+      },
+      {
+        "conceito": "Raiz de 225",
+        "explicacao": "Operação matemática básica cujo resultado é 15, pois $15 \\times 15 = 225$."
+      }
+    ],
+    "opcoes": [
+      "A) 25 cm e 15 cm",
+      "B) 25 cm e 20 cm",
+      "C) 12 cm e 15 cm",
+      "D) 25 cm e 12 cm"
+    ]
+  },
+  {
+    "pergunta": "Qual é o maior lado de qualquer triângulo retângulo e qual é o ângulo que sempre aponta como uma flecha diretamente para ele?",
+    "dificuldade": "Fácil",
+    "respostaCard": "B) A Hipotenusa é sempre o maior lado, e ela fica exatamente de frente (oposta) para o Ângulo Reto de 90°.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Na geometria existe uma lei inquebrável: 'O maior lado de um triângulo sempre fica de frente para a maior abertura de ângulo'. Como a soma de todos os ângulos do triângulo é 180°, se um canto já pegou 90° sozinho, ele é o rei do triângulo (os outros dois juntos só têm 90° para dividir). Portanto, a 'parede' que fecha esse ângulo de 90° (a hipotenusa) tem que ser obrigatoriamente a maior de todas para conseguir conectar as pontas. linkImagem:https://dicasdecalculo.com.br/wp-content/uploads/2016/07/triangulo-retangulo.jpg\n\n🐊 Exemplo do Cotidiano: Imagine a boca de um jacaré. Quanto mais ele abre a boca (maior o ângulo), maior precisa ser o palito de madeira (lado oposto) colocado lá dentro para travar a mordida. Abertura máxima = maior palito de madeira.",
+    "glossario": [
+      {
+        "conceito": "Lei Geométrica dos Lados e Ângulos",
+        "explicacao": "Regra que determina que o lado mais comprido de uma figura se opõe ao maior ângulo interno, e o lado mais curto se opõe ao menor ângulo."
+      },
+      {
+        "conceito": "Oposição (Geometria)",
+        "explicacao": "Estar localizado exatamente do outro lado da figura em relação ao ponto de referência."
+      }
+    ],
+    "opcoes": [
+      "A) Cateto oposto / ângulo agudo",
+      "B) Hipotenusa / ângulo de 90°",
+      "C) Hipotenusa / ângulo de 45°",
+      "D) Cateto adjacente / ângulo reto"
+    ]
+  },
+  {
+    "pergunta": "Se alguém desenhar em um papel um triângulo com os lados medindo exatamente 4 cm, 5 cm e 6 cm, podemos afirmar com certeza que ele é um triângulo retângulo? Justifique.",
+    "dificuldade": "Média",
+    "respostaCard": "Não! Ele não é retângulo. Para ser retângulo, os lados precisam obrigatoriamente validar a equação do Teorema de Pitágoras, o que não acontece nesse caso.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Essa é a 'Prova de Fogo' de Pitágoras. Só ter um formato pontudo não transforma a figura em triângulo retângulo. A equação $a^2 = b^2 + c^2$ funciona como um teste de DNA. O maior lado (6) tem que ser a hipotenusa. Testando na fórmula: $6^2 = 4^2 + 5^2 \\rightarrow 36 = 16 + 25 \\rightarrow 36 = 41$. Isso é uma mentira matemática! Como os lados do quadrado não se igualam, esse triângulo não tem um canto perfeito de 90°. linkImagem:https://s1.static.brasilescola.uol.com.br/be/e/demonstracoes%20do%20teorema%20de%20pitagoras%201.jpg\n\n🏗️ Exemplo do Cotidiano: Os pedreiros antigos e egípcios usavam cordas com nós para criar triângulos perfeitos (usando a proporção 3-4-5) e garantir que as paredes das pirâmides subissem perfeitamente retas (90°). Se usassem a proporção 4-5-6, a parede ficaria torta e a pirâmide desabaria.",
+    "glossario": [
+      {
+        "conceito": "Validação por Pitágoras",
+        "explicacao": "O ato de pegar as três medidas de um triângulo qualquer e jogar na fórmula $a^2=b^2+c^2$ para descobrir se existe um ângulo oculto de 90° nele."
+      },
+      {
+        "conceito": "Triângulo Escaleno Comum",
+        "explicacao": "Um triângulo que possui todos os lados diferentes e nenhum ângulo perfeitamente reto."
+      }
+    ]
+  },
+  {
+    "pergunta": "Se um campo de futebol em formato de quadrado perfeito tem 100 metros de lado, qual é a distância percorrida por um jogador que corre em linha reta de uma bandeirinha de escanteio até a ponta oposta? (Considere $\\sqrt{2} \\approx 1,4$)",
+    "dificuldade": "Difícil",
+    "respostaCard": "B) 140 metros. O jogador atravessou a 'Diagonal do Quadrado', que é calculada pela fórmula $L\\sqrt{2}$.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Cortar um quadrado pelo meio de um canto ao outro forma um triângulo retângulo perfeito onde os catetos medem o mesmo tamanho do lado do campo ($L=100$). A corrida em diagonal representa a hipotenusa. Se aplicarmos Pitágoras, chegaremos na fórmula imutável da Diagonal do Quadrado: $Diagonal = Lado \\times \\sqrt{2}$. \nComo o lado é $100$, a distância é $100 \\times \\sqrt{2}$. Como a questão autorizou usar o valor aproximado da raiz ($1,4$), fazemos $100 \\times 1,4 = 140$ metros de corrida! linkImagem:https://files.cursoenemgratuito.com.br/uploads/2020/08/Quadrado-dividido-na-diagonal-formando-angulos-notaveis-de-45o.jpg\n\n💡 Macete de Prova: Jamais perca tempo fazendo Pitágoras em quadrados! Viu um quadrado e a questão pediu a distância em diagonal? Apenas pegue a medida do lado e cole o símbolo de $\\sqrt{2}$ do lado. (Ex: lado 5, diagonal é $5\\sqrt{2}$).",
+    "glossario": [
+      {
+        "conceito": "Diagonal do Quadrado",
+        "explicacao": "A reta que une os ângulos opostos de um quadrado. Funciona como a hipotenusa exata de um triângulo isósceles de 45°."
+      },
+      {
+        "conceito": "Aproximação de Raiz ($\\approx$)",
+        "explicacao": "O uso de um número decimal com vírgula para substituir uma raiz irracional infinita, facilitando o cálculo final na vida real."
+      }
+    ],
+    "opcoes": [
+      "A) 100 m",
+      "B) 140 m",
+      "C) 200 m",
+      "D) 280 m"
+    ]
+  },
+  {
+    "pergunta": "Uma escada está encostada no topo de um muro perfeitamente vertical. Se o ângulo formado entre a escada e o MURO é de 30°, qual é o ângulo formado entre a escada e o CHÃO?",
+    "dificuldade": "Fácil",
+    "respostaCard": "C) 60°. Lembre-se que o muro e o chão formam 90°, então os outros dois ângulos do triângulo devem somar 90°.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Essa é uma pegadinha clássica de leitura matemática! O triângulo retângulo é formado pelo muro, pelo chão e pela escada. O ângulo entre o muro e o chão é, obrigatoriamente, 90° (ângulo reto). A regra de ouro diz que os dois ângulos agudos de um triângulo retângulo são complementares, ou seja, juntos somam 90°. Se a questão diz que a parte de cima (escada + muro) tem 30°, a parte de baixo (escada + chão) tem que ser $90° - 30° = 60°$. linkImagem:https://dicasdecalculo.com.br/wp-content/uploads/2016/07/triangulo-retangulo.jpg\n\n👀 Exemplo do Cotidiano: Imagine uma gangorra que não está equilibrada. Se uma ponta sobe um pouco, a outra tem que descer na exata mesma proporção geométrica. Os ângulos das pontas estão conectados pelo mesmo limite de 90 graus.",
+    "glossario": [
+      {
+        "conceito": "Ângulos Complementares",
+        "explicacao": "Dois ângulos que, quando somados, fecham a conta exata de 90°."
+      },
+      {
+        "conceito": "Interpretação de Texto Geométrica",
+        "explicacao": "O cuidado de ler exatamente onde o ângulo está ancorado (neste caso, a 'pegadinha' era que o ângulo de 30° não estava no chão, mas sim lá no alto do muro)."
+      }
+    ],
+    "opcoes": [
+      "A) 30°",
+      "B) 45°",
+      "C) 60°",
+      "D) 90°"
+    ]
+  },
+  {
+    "pergunta": "Em um triângulo retângulo, a hipotenusa mede 10 cm e a projeção de um dos catetos mede 3,6 cm. Qual é a medida desse cateto?",
+    "dificuldade": "Média",
+    "respostaCard": "B) 6 cm. Utilizamos a relação métrica $b^2 = a \\cdot m$.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Para resolver essa, usamos a relação métrica que diz que o quadrado de um cateto é igual à multiplicação da hipotenusa ($a$) pela sua própria 'sombra' ou projeção ($m$). \nAplicando: $b^2 = 10 \\cdot 3,6$. \nAo multiplicar um número decimal por 10, a vírgula anda uma casa para a direita, então $10 \\cdot 3,6 = 36$. \nFicamos com $b^2 = 36$. Passando o quadrado em forma de raiz, temos $b = \\sqrt{36}$, o que nos dá exatos 6 cm! linkImagem:https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/11/1-triangulos-semelhantes.jpg\n\n💡 Macete de Prova: Não tenha medo de números com vírgula em geometria! Eles geralmente são colocados de propósito para se transformarem em números redondos ou 'quadrados perfeitos' (como o 36) logo no primeiro passo do cálculo.",
+    "glossario": [
+      {
+        "conceito": "Relação Métrica $b^2 = a \\cdot m$",
+        "explicacao": "A fórmula que relaciona um cateto com a hipotenusa inteira e o pedacinho da hipotenusa que fica logo abaixo dele."
+      },
+      {
+        "conceito": "Multiplicação de Decimais por Base 10",
+        "explicacao": "Técnica aritmética rápida: multiplicar por 10, 100 ou 1000 apenas desloca a vírgula para a direita, sem precisar montar a conta."
+      }
+    ],
+    "opcoes": [
+      "A) 5 cm",
+      "B) 6 cm",
+      "C) 8 cm",
+      "D) 36 cm"
+    ]
+  },
+  {
+    "pergunta": "Baseado na Relação Trigonométrica Fundamental e no SOH CAH TOA, como podemos provar matematicamente que ao multiplicar a Tangente de um ângulo pelo seu Cosseno, o resultado será sempre igual ao Seno desse ângulo?",
+    "dificuldade": "Difícil",
+    "respostaCard": "Basta substituir a Tangente por Oposto/Adjacente e o Cosseno por Adjacente/Hipotenusa. Na multiplicação de frações, cortamos os 'Adjacentes' e sobra apenas a fórmula do Seno.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Essa é uma linda ginástica algébrica que ajuda a dominar a trigonometria. A questão diz que $\\tan(x) \\cdot \\cos(x) = \\sin(x)$. Vamos provar? \nSubstituindo pelas fórmulas do macete SOH CAH TOA, temos: $\\frac{Oposto}{Adjacente} \\cdot \\frac{Adjacente}{Hipotenusa}$. \nNa multiplicação de frações, multiplicamos o de cima com o de cima, e o de baixo com o de baixo. Fica $\\frac{Oposto \\cdot Adjacente}{Adjacente \\cdot Hipotenusa}$. \nComo a palavra 'Adjacente' está multiplicando em cima e em baixo, podemos 'cortá-la' da conta! \nO que sobrou? Apenas $\\frac{Oposto}{Hipotenusa}$. E adivinha? Essa é exatamente a fórmula do Seno! linkImagem:https://dicasdecalculo.com.br/wp-content/uploads/2016/07/triangulo-retangulo.jpg\n\n✂️ Exemplo do Cotidiano: É como uma receita de bolo: se você colocar 2 xícaras de açúcar e depois retirar 2 xícaras de açúcar (operações inversas na fração), você pode simplesmente ignorar esse passo e olhar apenas para a farinha que sobrou na tigela.",
+    "glossario": [
+      {
+        "conceito": "Simplificação de Frações",
+        "explicacao": "A regra matemática que permite anular termos iguais que estejam sendo multiplicados no numerador (parte de cima) e no denominador (parte de baixo)."
+      },
+      {
+        "conceito": "Prova Algébrica",
+        "explicacao": "Demonstrar que uma teoria geométrica é verdade apenas usando letras, regras de frações e equações, sem precisar de números."
+      }
+    ]
+  },
+  {
+    "pergunta": "Na famosa demonstração do Teorema de Pitágoras usando áreas desenhadas, se o quadrado da hipotenusa tem 100 cm² de área, e um dos quadrados dos catetos tem 64 cm² de área, qual é o TAMANHO (comprimento) do lado do outro cateto?",
+    "dificuldade": "Média",
+    "respostaCard": "A) 6 cm. Primeiro descobrimos que a área do quadrado que falta é 36. Depois, tiramos a raiz de 36 para achar o lado, que é 6.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Leia com cuidado! A equação das áreas diz que a Área Maior é igual à soma das Áreas Menores ($100 = 64 + Área\\_Desconhecida$). \nFazendo a conta, $100 - 64 = 36$. Mas atenção: $36 cm^2$ é a ÁREA do quadrado desenhado nesse cateto. A questão pediu o tamanho (comprimento) do cateto! \nSe a área de um quadrado é calculada por $Lado \\times Lado$ ($L^2$), qual número multiplicado por ele mesmo dá 36? É o 6! Logo, o lado desse cateto mede $6$ cm. linkImagem:https://s1.static.brasilescola.uol.com.br/be/e/demonstracoes%20do%20teorema%20de%20pitagoras%201.jpg\n\n💡 Macete de Prova: É o nosso velho amigo Triângulo Pitagórico disfarçado e multiplicado por 2! O clássico é 3-4-5. Se você observar os lados, temos a hipotenusa igual a 10 (que é $5\\times2$), um cateto igual a 8 (raiz de 64, que é $4\\times2$) e o cateto descoberto igual a 6 (que é $3\\times2$).",
+    "glossario": [
+      {
+        "conceito": "Área vs Comprimento",
+        "explicacao": "Área é o preenchimento interno ($cm^2$), calculado elevando o lado ao quadrado. Comprimento é a medida da linha de borda ($cm$). Para ir da área para o comprimento, usa-se a raiz quadrada."
+      },
+      {
+        "conceito": "Triângulo Pitagórico Expandido",
+        "explicacao": "Qualquer triângulo retângulo derivado de proporções inteiras. O 6-8-10 é apenas o triângulo 3-4-5 com o dobro do tamanho."
+      }
+    ],
+    "opcoes": [
+      "A) 6 cm",
+      "B) 36 cm",
+      "C) 8 cm",
+      "D) 10 cm"
+    ]
+  },
+  {
+    "pergunta": "Lembrando da música da tabela dos ângulos notáveis, qual dos ângulos (30°, 45° ou 60°) possui uma Tangente cujo valor é apenas 'Raiz de Três' ($\\sqrt{3}$)?",
+    "dificuldade": "Fácil",
+    "respostaCard": "C) 60°. Cantando o final da musiquinha: 'Raiz de três sobre três, um, RAIZ DE TRÊS!'",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: A linha da Tangente na tabela trigonométrica é um pouco diferente das do Seno e do Cosseno. Por isso, a música tem uma estrofe separada só para ela. A sequência para os ângulos 30°, 45° e 60° é: $\\frac{\\sqrt{3}}{3}$ (para 30°), $1$ (para 45°), e $\\sqrt{3}$ (para 60°). \n\n🎶 Macete de Prova (A Canção Completa):\n'Um, dois, três... Três, dois, um... Tudo sobre dois! E a raiz vai no três e também no dois! (Seno e Cosseno)\nA tangente é diferente, veja que legal:\nRaiz de três sobre três... Um... Raiz de três!' (Tangente)\nCantou baixinho na prova, você acerta de cara!",
+    "glossario": [
+      {
+        "conceito": "Tangente de 60°",
+        "explicacao": "O valor $\\sqrt{3}$ nos diz que o cateto oposto a um ângulo de 60° é quase $1,73$ vezes MAIOR do que o cateto adjacente."
+      },
+      {
+        "conceito": "Ângulos Notáveis",
+        "explicacao": "O trio 30°, 45° e 60° que despenca em vestibulares, sendo essencial a memorização de seus valores de seno, cosseno e tangente."
+      }
+    ],
+    "opcoes": [
+      "A) 30°",
+      "B) 45°",
+      "C) 60°",
+      "D) 90°"
+    ]
+  },
+  {
+    "pergunta": "Qual é o caso de Congruência/Semelhança que justifica o fato de que ao traçarmos a altura em um triângulo retângulo, geramos três triângulos perfeitamente proporcionais?",
+    "dificuldade": "Difícil",
+    "respostaCard": "É o caso de semelhança AA (Ângulo-Ângulo). Se dois triângulos possuem dois ângulos internos iguais, o terceiro automaticamente também será igual, provando a semelhança.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Para provar que duas figuras são idênticas em formato, a geometria tem atalhos chamados 'casos de semelhança'. O mais forte para triângulos é o AA (Ângulo-Ângulo). \nQuando você desce a altura ($h$) no triângulo retângulo grande, ela cria um ângulo de 90° no chão. O triângulo pequeno que se formou agora compartilha o ângulo de 90° e também compartilha uma das 'pontas' (o ângulo agudo) do triângulo grandão. Como eles têm DOIS ângulos iguais, pela regra da soma de 180°, o terceiro ângulo obrigatoriamente também será igual. Logo, eles são clones em proporções diferentes! linkImagem:https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/11/1-triangulos-semelhantes.jpg",
+    "glossario": [
+      {
+        "conceito": "Caso de Semelhança AA (Ângulo-Ângulo)",
+        "explicacao": "A prova geométrica absoluta de que dois triângulos são semelhantes se tiverem pelo menos dois de seus três ângulos internos com a mesma medida."
+      },
+      {
+        "conceito": "Proporção",
+        "explicacao": "A relação matemática que permite criar as Relações Métricas. Se eles são semelhantes, significa que as divisões de seus lados correspondentes gerarão o mesmo resultado fracionário."
+      }
+    ]
+  },
+  {
+    "pergunta": "Um triângulo retângulo possui seus lados definidos pelas medidas 5 cm, 12 cm e $x$ cm. Se $x$ é o maior lado do triângulo, qual é o valor exato de $x$?",
+    "dificuldade": "Fácil",
+    "respostaCard": "A) 13 cm. Este é outro triângulo clássico, conhecido como Triângulo Pitagórico 5-12-13.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: A questão nos diz que $x$ é o maior lado, o que significa automaticamente que $x$ é a nossa Hipotenusa. Os lados 5 e 12 são os catetos. \nAplicando Pitágoras ($a^2 = b^2 + c^2$): \n$x^2 = 5^2 + 12^2$ \n$x^2 = 25 + 144$ \n$x^2 = 169$ \nTirando a raiz quadrada, descobrimos que $x = 13$. linkImagem:https://s4.static.brasilescola.uol.com.br/be/2023/02/formula-e-demonstracao-do-teorema-de-pitagoras.jpg\n\n💡 Macete de Prova: Assim como você decorou o 3-4-5, o 5-12-13 é o segundo triângulo pitagórico mais usado em vestibulares no Brasil. Decorar essa trinca poupa preciosos minutos na prova!",
+    "glossario": [
+      {
+        "conceito": "O Maior Lado ($x$)",
+        "explicacao": "Uma dica textual em enunciados geométricos para te avisar indiretamente qual número deve ficar isolado antes do sinal de 'igual' na fórmula de Pitágoras (a hipotenusa)."
+      },
+      {
+        "conceito": "Raiz de 169",
+        "explicacao": "Raiz quadrada perfeita clássica da matemática ($13 \\times 13 = 169$). Memorizar as raízes até o número 15 (225) é fundamental para ganhar velocidade em geometria."
+      }
+    ],
+    "opcoes": [
+      "A) 13 cm",
+      "B) 14 cm",
+      "C) 15 cm",
+      "D) 17 cm"
+    ]
+  },
+  {
+    "pergunta": "Ao ler um problema geométrico de texto, como você decide mentalmente se deve usar a fórmula do Seno, do Cosseno ou da Tangente para resolvê-lo?",
+    "dificuldade": "Média",
+    "respostaCard": "Avaliando qual dado o problema te entregou e qual dado ele quer que você descubra. O par 'Dado e Pedido' vai gritar o nome da fórmula do SOH CAH TOA.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Não precisa de adivinhação. O triângulo tem 3 lados, mas toda fórmula só precisa de 2. \n1. A questão quer saber a Hipotenusa, mas só te deu o Cateto Oposto? Oposto e Hipotenusa = **Seno** (SOH).\n2. A questão deu o Cateto Adjacente e quer descobrir a Hipotenusa? Adjacente e Hipotenusa = **Cosseno** (CAH).\n3. A questão não te deu a Hipotenusa, não quer saber dela, só te deu o chão (Adjacente) e quer saber a altura da torre (Oposto)? Oposto e Adjacente = **Tangente** (TOA). linkImagem:https://dicasdecalculo.com.br/wp-content/uploads/2016/07/triangulo-retangulo.jpg\n\n🎯 Exemplo do Cotidiano: É como ir a uma lanchonete e olhar o seu dinheiro (O que você tem) e olhar o menu (O que você quer). O combo exato que resolve a sua fome é a fórmula que cruza essas duas informações.",
+    "glossario": [
+      {
+        "conceito": "SOH CAH TOA",
+        "explicacao": "O mantra supremo da trigonometria mundial para ligar as razões: S=O/H, C=A/H e T=O/A."
+      },
+      {
+        "conceito": "Variáveis Conhecidas e Incógnitas",
+        "explicacao": "A técnica de circular com a caneta o que a prova te deu (em números) e colocar um '?' no que ela pediu, facilitando a escolha da fórmula correta."
+      }
+    ]
+  },
+  {
+    "pergunta": "A partir da relação métrica '$a \\cdot h = b \\cdot c$', se quisermos criar uma fórmula rápida apenas para descobrir o valor da Altura ($h$), como essa fórmula ficará reescrita?",
+    "dificuldade": "Média",
+    "respostaCard": "B) $h = \\frac{b \\cdot c}{a}$. Basta passar a hipotenusa ($a$) que estava multiplicando para o outro lado dividindo.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Essa é uma manipulação algébrica básica para isolar incógnitas, o que agiliza muito em dias de prova. Começamos com a equação que diz que 'A hipotenusa vezes a altura é igual à multiplicação dos dois catetos' ($a \\cdot h = b \\cdot c$). \nSe o meu objetivo é deixar o $h$ sozinho do lado esquerdo para ter uma resposta direta, a letra $a$ precisa sair dali. Como ela está multiplicando, a matemática nos obriga a passá-la para a direita com a operação inversa: a divisão! Assim nasce a fórmula $h = \\frac{b \\cdot c}{a}$.\n\n💡 Macete de Prova: Leia isso mentalmente como 'A altura é a multiplicação dos dois catetos dividida pelo chão'. É extremamente útil quando a prova te dá os três lados do triângulo e pede a altura do nada.",
+    "glossario": [
+      {
+        "conceito": "Isolamento de Incógnita",
+        "explicacao": "A estratégia de manipular a equação jogando tudo o que é inútil para o outro lado do sinal de '=' usando operações matemáticas inversas."
+      },
+      {
+        "conceito": "Incógnita ($h$)",
+        "explicacao": "A letra que representa o valor desconhecido que estamos caçando (neste caso, a altura do triângulo)."
+      }
+    ],
+    "opcoes": [
+      "A) $h = a + b + c$",
+      "B) $h = (b \\cdot c) / a$",
+      "C) $h = a / (b \\cdot c)$",
+      "D) $h = a \\cdot b \\cdot c$"
+    ]
+  },
+  {
+    "pergunta": "Na geometria clássica, é fisicamente possível desenhar um Triângulo Retângulo que possua também um Ângulo Obtuso (maior que 90°) em um de seus cantos? Justifique.",
+    "dificuldade": "Difícil",
+    "respostaCard": "Não, é matematicamente e fisicamente impossível na geometria plana (Euclidiana). A soma final ultrapassaria 180°.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: A prova dessa impossibilidade reside no teorema da 'Soma dos Ângulos Internos'. Qualquer triângulo do mundo só tem 180° de espaço angular para gastar. Um triângulo retângulo já gasta cravados 90° com o seu ângulo reto. Se nós tentarmos colocar um ângulo obtuso (por exemplo, um ângulo que seja 91°), a soma parcial já ficaria $90° + 91° = 181°$. \nPassou do limite máximo de 180° antes mesmo de desenharmos o terceiro canto do triângulo! A figura explodiria e nunca conseguiria se fechar. Portanto, todo triângulo retângulo só pode abrigar um ângulo reto e dois ângulos agudos (menores que 90°). linkImagem:https://dicasdecalculo.com.br/wp-content/uploads/2016/07/triangulo-retangulo.jpg",
+    "glossario": [
+      {
+        "conceito": "Ângulo Obtuso",
+        "explicacao": "Qualquer ângulo 'aberto', ou seja, estritamente maior que 90 graus e menor que 180 graus."
+      },
+      {
+        "conceito": "Geometria Euclidiana (Plana)",
+        "explicacao": "A geometria tradicional ensinada nas escolas, que acontece em uma folha de papel plana perfeitamente reta (2D), onde as regras de 180° funcionam com perfeição."
+      },
+      {
+        "conceito": "Impossibilidade Geométrica",
+        "explicacao": "Condições matemáticas que inviabilizam o fechamento de um polígono, como tentar desenhar um triângulo com três lados medindo 10, 2 e 2 (ele não fecha)."
+      }
+    ]
+  },
+  {
+    "pergunta": "Se cortarmos um triângulo equilátero perfeitamente ao meio usando a linha da altura, quais serão os três ângulos internos dos dois novos triângulos retângulos formados?",
+    "dificuldade": "Média",
+    "respostaCard": "Eles terão exatamente os ângulos de 90°, 60° e 30°. É daqui que nascem as fórmulas da trigonometria para esses ângulos notáveis.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Um triângulo equilátero possui todos os lados iguais e todos os três ângulos internos medindo exatamente 60° (para somar 180°). Ao traçarmos a altura, ela desce formando um ângulo reto de 90° com a base e corta o ângulo lá do topo pela exata metade ($60° / 2 = 30°$). O ângulo lateral de 60° permanece intacto. Assim, criamos o famoso triângulo retângulo de 30-60-90. linkImagem:https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/11/1-triangulos-semelhantes.jpg\n\n✂️ Exemplo do Cotidiano: Imagine uma placa de trânsito de 'Dê a preferência' (que é um triângulo equilátero invertido). Se você serrar essa placa ao meio, do topo até o centro da base, você ficará com dois pedaços que possuem um canto em L (90°), um bico agudo (30°) e o canto original da placa (60°).",
+    "glossario": [
+      {
+        "conceito": "Triângulo Equilátero",
+        "explicacao": "O triângulo mais perfeito da geometria plana, possuindo três lados do mesmo tamanho e três ângulos internos iguais a 60°."
+      },
+      {
+        "conceito": "Bissetriz",
+        "explicacao": "A linha imaginária que corta um ângulo perfeitamente ao meio. No triângulo equilátero, a altura também atua como bissetriz do ângulo do topo."
+      }
+    ]
+  },
+  {
+    "pergunta": "Em um teste prático, como um carpinteiro pode descobrir a altura de um telhado triangular (triângulo retângulo) se ele só tem a medida do chão (hipotenusa) e das duas águas do telhado (catetos), sem subir lá para medir?",
+    "dificuldade": "Média",
+    "respostaCard": "Multiplicando o tamanho das duas tábuas do telhado (catetos) e dividindo o resultado pelo tamanho do piso (hipotenusa).",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Esse é o uso prático da relação métrica $a \\cdot h = b \\cdot c$. Se o nosso objetivo é descobrir a altura ($h$), manipulamos a equação passando a hipotenusa ($a$) para o outro lado dividindo. A fórmula mágica fica: $h = \\frac{b \\cdot c}{a}$. Ou seja, multiplica-se os dois lados inclinados e divide-se pela base! linkImagem:https://dicasdecalculo.com.br/wp-content/uploads/2016/07/triangulo-retangulo.jpg\n\n🔨 Exemplo do Cotidiano: O carpinteiro mediu o piso do sótão e deu 5 metros (hipotenusa). Ele mediu os caibros de madeira do telhado no chão antes de montar e deram 3 metros e 4 metros (catetos). Para saber qual pilar de suporte ele precisa colocar no meio do sótão (altura), ele faz: $3 \\cdot 4 = 12$. Depois, $12 / 5 = 2,4$. O pilar terá exatos 2,4 metros de altura!",
+    "glossario": [
+      {
+        "conceito": "Águas do Telhado",
+        "explicacao": "Termo da construção civil para se referir às superfícies inclinadas de um telhado por onde a chuva escorre. Neste caso, atuam como os catetos."
+      },
+      {
+        "conceito": "Isolamento de Variável",
+        "explicacao": "Processo de rearranjar uma equação algébrica para deixar a letra que queremos descobrir isolada de um lado do sinal de igual."
+      }
+    ]
+  },
+  {
+    "pergunta": "Qual é o raciocínio matemático que explica por que a soma do Seno ao quadrado com o Cosseno ao quadrado de um mesmo ângulo jamais será maior do que 1?",
+    "dificuldade": "Difícil",
+    "respostaCard": "Porque nas frações de Seno e Cosseno, o denominador é a Hipotenusa (o maior lado). Logo, essas frações sempre resultam em um decimal menor que 1. Ao somá-los ao quadrado, chegam exatamente a 1.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Esta é a essência da Relação Trigonométrica Fundamental ($\\sin^2(x) + \\cos^2(x) = 1$). A conta do Seno é Cateto Oposto dividido pela Hipotenusa. Como a hipotenusa é sempre maior que qualquer cateto, você está sempre dividindo um número menor por um número maior (ex: $3/5 = 0,6$). O mesmo vale para o Cosseno (ex: $4/5 = 0,8$). Você sempre terá números decimais. Quando os elevamos ao quadrado e os somamos, a física do Teorema de Pitágoras garante que as frações completem perfeitamente o limite absoluto da unidade geométrica (1, ou 100%).\n\n🍕 Exemplo do Cotidiano: Imagine a Hipotenusa como uma pizza inteira (100%). Os catetos são as fatias cortadas. Uma fração da pizza (seno) mais a outra fração da pizza (cosseno), se elevadas pelas regras de área do triângulo, remontam exatamente a caixa inteira da pizza (o número 1 inteiro), nunca transbordando a caixa.",
+    "glossario": [
+      {
+        "conceito": "Denominador",
+        "explicacao": "O número que fica na parte de baixo da fração, indicando em quantas partes o todo foi dividido."
+      },
+      {
+        "conceito": "Unidade Trigonométrica (O Número 1)",
+        "explicacao": "Na matemática, o número 1 representa a completude, o raio máximo de um ciclo trigonométrico perfeito (100%)."
+      }
+    ]
+  },
+  {
+    "pergunta": "Se um triângulo retângulo for desenhado de ponta-cabeça ou inclinado em uma prova geométrica, qual é a regra visual infalível para localizar quem é a hipotenusa sem se confundir?",
+    "dificuldade": "Fácil",
+    "respostaCard": "Basta encontrar o 'quadradinho' que representa o ângulo reto de 90° e olhar diretamente para o lado que está de frente (oposto) para ele. Esse lado será sempre a hipotenusa.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: O triângulo pode ser girado em qualquer direção do plano cartesiano. Muitos alunos erram porque assumem que a hipotenusa é sempre a linha que está 'em diagonal' ou 'caída'. Isso é um erro! A Hipotenusa é definida única e exclusivamente por sua relação com o ângulo reto. Ela é o lado que liga os dois ângulos agudos e NUNCA toca o ângulo de 90°. linkImagem:https://dicasdecalculo.com.br/wp-content/uploads/2016/07/triangulo-retangulo.jpg\n\n🏹 Exemplo do Cotidiano: Imagine que o símbolo de 90° (o quadradinho com o ponto) é um pequeno arqueiro. A hipotenusa é sempre a parede para onde a flecha do arqueiro está apontando diretamente. Não importa para onde você gire a figura, siga a flecha visual do ângulo reto e você achará a hipotenusa.",
+    "glossario": [
+      {
+        "conceito": "Rotação Geométrica",
+        "explicacao": "O ato de girar a figura no papel. O triângulo retângulo não perde suas propriedades ao ser girado."
+      },
+      {
+        "conceito": "Vértice Oposto",
+        "explicacao": "O vértice (canto) que fica do lado totalmente contrário a uma determinada linha ou ângulo."
+      }
+    ]
+  },
+  {
+    "pergunta": "Por que na tabela trigonométrica, a Tangente de 30° ($\\frac{\\sqrt{3}}{3}$) resulta em um número menor que 1, enquanto a Tangente de 60° ($\\sqrt{3}$) resulta em um número maior que 1?",
+    "dificuldade": "Média",
+    "respostaCard": "Porque a tangente (Oposto / Adjacente) revela quem é o maior cateto. Em 30°, o cateto oposto é menor. Em 60°, o cateto oposto se torna o maior, fazendo a divisão dar mais que 1.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Tangente não usa a hipotenusa, ela é a batalha direta entre os dois catetos! Em um ângulo baixo como 30°, a altura do triângulo (cateto oposto) é curtinha, mas o chão (cateto adjacente) é comprido. Ao dividir um número menor por um maior, o resultado é um decimal ($0,57...$). \nMas se o triângulo for muito inclinado e empinado, formando 60° com o chão, o prédio (oposto) passa a ser muito maior que a sombra (adjacente). Dividir um número grande por um pequeno dá mais que 1 inteiro (aproximadamente $1,73$).\n\n🔦 Exemplo do Cotidiano: Pense na sombra que você faz no asfalto. Se o sol estiver se pondo (ângulo baixo de 30°), sua sombra será enorme e esticada (adjacente maior). Se o sol estiver bem alto no céu perto do meio-dia (ângulo de 60°), sua sombra encolhe e fica menor do que a sua própria altura (oposto maior).",
+    "glossario": [
+      {
+        "conceito": "Tangente",
+        "explicacao": "A função trigonométrica que compara o crescimento vertical (oposto) com o crescimento horizontal (adjacente) de uma rampa."
+      },
+      {
+        "conceito": "Raiz de 3 ($\\sqrt{3}$)",
+        "explicacao": "Um número irracional que vale aproximadamente 1,73. Usado nas equações para não termos que escrever números decimais infinitos."
+      }
+    ]
+  },
+  {
+    "pergunta": "Um marceneiro quer conferir se o batente de uma porta retangular está perfeitamente no esquadro (com cantos de 90° perfeitos). Ele mede a largura, a altura e a diagonal. Que cálculo geométrico ele deve fazer para ter certeza?",
+    "dificuldade": "Fácil",
+    "respostaCard": "Ele deve aplicar o Teorema de Pitágoras. Se a Largura² + Altura² for perfeitamente igual à Diagonal², a porta tem cantos retos de 90°.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Todo retângulo cortado por uma linha diagonal se transforma em dois triângulos retângulos perfeitos colados pelas costas. A largura e a altura viram os catetos, e a diagonal vira a hipotenusa. A única forma de um canto ter exatamente 90 graus (estar 'no esquadro') é se as três medidas obedecerem cegamente à equação $a^2 = b^2 + c^2$. linkImagem:https://s4.static.brasilescola.uol.com.br/be/2023/02/formula-e-demonstracao-do-teorema-de-pitagoras.jpg\n\n📏 Exemplo do Cotidiano: A regra mais famosa entre os pedreiros é a regra do '3, 4, 5'. Para garantir que a parede da sala fique com 90°, o pedreiro marca 3 metros numa parede, 4 metros na outra. Depois, ele estica a trena na diagonal ligando essas duas marcas. Se a trena der exatos 5 metros, a parede está milimetricamente reta no canto. É Pitágoras aplicado na vida real!",
+    "glossario": [
+      {
+        "conceito": "Esquadro",
+        "explicacao": "Uma ferramenta em formato de L (ou o próprio conceito visual) usada na construção civil para garantir ângulos retos de 90°."
+      },
+      {
+        "conceito": "Retângulo",
+        "explicacao": "Polígono de quatro lados que possui, por definição, quatro ângulos internos retos (90°)."
+      }
+    ]
+  },
+  {
+    "pergunta": "Na famosa demonstração do Teorema de Pitágoras por semelhança de triângulos, ao separar o triângulo médio do triângulo grandão original, qual lado do triângulo original passa a atuar matematicamente como a hipotenusa do novo triângulo médio?",
+    "dificuldade": "Difícil",
+    "respostaCard": "O Cateto Maior do triângulo original. Ao isolar o triângulo médio, esse cateto se torna o lado que fica de frente para o novo ângulo de 90° formado no chão.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Essa visualização mental é a chave das relações métricas! Quando a altura desce, ela atinge a base em 90°. Ao extrairmos o triângulo médio da figura, nós giramos essa nova peça. O que antes era apenas uma 'parede lateral' (o cateto maior) no desenho inteiro, agora é a rampa inclinada do desenho menor, ficando de frente para o novo ângulo reto do chão. Logo, o cateto $b$ atua como hipotenusa na figura média. linkImagem:https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/11/1-triangulos-semelhantes.jpg\n\n🧩 Exemplo do Cotidiano: Imagine brincar com peças de Tangram. Uma mesma peça triangular de madeira pode servir como a parede vertical (cateto) do telhado de uma casa e, na rodada seguinte, você a gira e a usa como o chão inclinado (hipotenusa) para construir um barco. A posição relativa dita o nome do lado!",
+    "glossario": [
+      {
+        "conceito": "Triângulo Médio e Triângulo Pequeno",
+        "explicacao": "Nomenclatura didática para as duas novas figuras formadas dentro do triângulo retângulo original quando traçamos a altura relativa à hipotenusa."
+      },
+      {
+        "conceito": "Posição Relativa",
+        "explicacao": "O princípio de que um lado não é 'cateto' para sempre. Se você analisar um sub-triângulo menor, aquele mesmo pedaço de linha pode virar a hipotenusa dessa nova análise."
+      }
+    ]
+  },
+  {
+    "pergunta": "O que acontece matematicamente (e visualmente) com as medidas das projeções ortogonais ($m$ e $n$) no chão se o nosso triângulo retângulo for isósceles (possuir os dois catetos do mesmo tamanho)?",
+    "dificuldade": "Média",
+    "respostaCard": "As duas projeções ($m$ e $n$) terão exatamente o mesmo tamanho ($m = n$), e a altura do triângulo baterá milimetricamente no ponto médio da hipotenusa.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Um triângulo retângulo isósceles tem os dois catetos iguais, o que obriga os seus ângulos agudos a serem de 45° cada. Devido a essa simetria perfeita, o desenho funciona como um espelho. Quando a altura desce do ângulo de 90°, ela não cai deslocada para a esquerda ou direita; ela desce direto no centro de gravidade da figura. Assim, a hipotenusa é cortada em duas metades perfeitamente iguais! linkImagem:https://files.cursoenemgratuito.com.br/uploads/2020/08/Quadrado-dividido-na-diagonal-formando-angulos-notaveis-de-45o.jpg\n\n🦋 Exemplo do Cotidiano: É como desenhar uma borboleta ou um avião de papel perfeito. A linha central do corpo da borboleta (a altura) divide as asas da esquerda (cateto e projeção $m$) das asas da direita (cateto e projeção $n$) em proporções espelhadas. A matemática aqui fica lindamente equilibrada.",
+    "glossario": [
+      {
+        "conceito": "Triângulo Isósceles",
+        "explicacao": "Aquele que tem dois lados com a mesma medida e, como consequência da lei dos senos, também possui dois ângulos iguais na base."
+      },
+      {
+        "conceito": "Ponto Médio",
+        "explicacao": "O centro absoluto de um segmento de reta, dividindo-o em dois pedaços iguais (50% para cada lado)."
+      },
+      {
+        "conceito": "Simetria de Reflexão",
+        "explicacao": "Quando o lado direito da geometria é um espelho matemático perfeito do lado esquerdo."
+      }
+    ]
+  },
+  {
+    "pergunta": "Além do super famoso 3-4-5 e do 5-12-13, existe outro Terno Pitagórico primitivo muito explorado em questões de vestibulares difíceis envolvendo o número 8. Quais são os três lados desse triângulo?",
+    "dificuldade": "Difícil",
+    "respostaCard": "B) 8, 15 e 17. É o terceiro 'Terno Pitagórico' primitivo mais comum das provas de geometria.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Os 'Ternos Pitagóricos' são trincas de números inteiros que satisfazem perfeitamente a equação $a^2 = b^2 + c^2$. \nVamos testar a alternativa B (onde o maior lado, 17, é a hipotenusa): \n$17^2 = 8^2 + 15^2$ \n$289 = 64 + 225$ \n$289 = 289$. O cálculo é exato! Saber essa trinca de cor salva muito tempo em questões que desenham o número 8 e o 15 para os alunos e pedem a diagonal. linkImagem:https://s4.static.brasilescola.uol.com.br/be/2023/02/formula-e-demonstracao-do-teorema-de-pitagoras.jpg\n\n💡 Macete de Prova: Os três triângulos de ouro para você memorizar e matar questões de cálculo longo com os olhos são:\n1º) $3 - 4 - 5$\n2º) $5 - 12 - 13$\n3º) $8 - 15 - 17$",
+    "glossario": [
+      {
+        "conceito": "Terno Pitagórico Primitivo",
+        "explicacao": "Uma trinca de números inteiros que formam um triângulo retângulo e não são derivados (multiplicados) de nenhum outro triângulo menor."
+      },
+      {
+        "conceito": "Quadrado de 17",
+        "explicacao": "A conta matemática de $17 \\times 17$, que resulta em 289."
+      }
+    ],
+    "opcoes": [
+      "A) 8-10-12",
+      "B) 8-15-17",
+      "C) 8-12-16",
+      "D) 8-9-10"
+    ]
+  },
+  {
+    "pergunta": "Na tabela trigonométrica, por que o Seno de 45° e o Cosseno de 45° são resultados representados por números irracionais e fracionários ($\\frac{\\sqrt{2}}{2}$) e não por números inteiros ou decimais fáceis como $0,5$?",
+    "dificuldade": "Média",
+    "respostaCard": "Porque a geometria do ângulo de 45° nasce do corte da diagonal de um quadrado. E a fórmula da diagonal de um quadrado exige obrigatoriamente a presença da $\\sqrt{2}$.",
+    "resumoExplicacao": "📐 Conceitos Fundamentais: Quando dividimos um quadrado ao meio, a hipotenusa formada (a diagonal) será sempre o lado do quadrado vezes a raiz de 2 (fórmula $L\\sqrt{2}$). \nComo Seno é igual a Oposto / Hipotenusa, a conta será $\\frac{Lado}{Lado\\sqrt{2}}$. Cortamos a palavra Lado em cima e embaixo e sobra $\\frac{1}{\\sqrt{2}}$. \nNa matemática formal, não podemos deixar uma raiz no denominador (embaixo), então nós racionalizamos a fração (multiplicamos em cima e embaixo pela própria raiz). É desse procedimento de formatação algébrica que nasce a famosa figura do $\\frac{\\sqrt{2}}{2}$! linkImagem:https://files.cursoenemgratuito.com.br/uploads/2020/08/Quadrado-dividido-na-diagonal-formando-angulos-notaveis-de-45o.jpg\n\n🧮 Exemplo do Cotidiano: Deixar uma raiz no denominador é como tentar servir sopa (o número) num prato raso (a raiz). Fica instável. A racionalização é transferir essa sopa para uma tigela funda (passar a raiz para o topo da fração), deixando o cálculo matematicamente 'elegante' e padronizado mundialmente.",
+    "glossario": [
+      {
+        "conceito": "Número Irracional",
+        "explicacao": "Um número que possui decimais infinitos e sem padrão de repetição (ex: $\\sqrt{2} \\approx 1,41421...$). Eles são deixados indicados com o símbolo de raiz para evitar perda de precisão."
+      },
+      {
+        "conceito": "Racionalização de Denominadores",
+        "explicacao": "Uma técnica algébrica de multiplicar a fração por uma raiz neutra para eliminar o sinal de raiz da parte de baixo (denominador) da divisão."
+      }
+    ]
+  }
+]

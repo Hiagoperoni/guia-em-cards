@@ -34,6 +34,8 @@ export interface Card {
   answer: string;
   summary?: string | null;
   glossary?: GlossaryItem[] | null;
+  options?: string[] | null;
+  difficulty?: string | null;
   order: number;
   active: boolean;
   createdAt: string;
@@ -44,6 +46,7 @@ export interface CardListItem {
   id: string;
   question: string;
   order: number;
+  difficulty?: string | null;
 }
 
 export interface SubjectDetail extends Subject {
@@ -76,6 +79,8 @@ export interface CreateCardInput {
   answer: string;
   summary?: string;
   glossary?: GlossaryItem[];
+  options?: string[];
+  difficulty?: string;
   order?: number;
 }
 

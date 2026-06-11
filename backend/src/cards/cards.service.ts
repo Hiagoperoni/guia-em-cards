@@ -15,12 +15,13 @@ export class CardsService {
     if (!topic) {
       throw new NotFoundException('Topic not found');
     }
-    const { glossary, ...rest } = data;
+    const { glossary, options, ...rest } = data;
     return this.prisma.card.create({
       data: {
         ...rest,
         topicId,
         glossary: glossary as unknown as Prisma.InputJsonValue | undefined,
+        options: options as unknown as Prisma.InputJsonValue | undefined,
       },
     });
   }
@@ -29,7 +30,7 @@ export class CardsService {
     return this.prisma.card.findMany({
       where: { topicId, active: true },
       orderBy: { order: 'asc' },
-      select: { id: true, question: true, order: true },
+      select: { id: true, question: true, order: true, difficulty: true },
     });
   }
 
@@ -43,13 +44,16 @@ export class CardsService {
 
   async update(id: string, data: UpdateCardDto) {
     await this.ensureExists(id);
-    const { glossary, ...rest } = data;
+    const { glossary, options, ...rest } = data;
     return this.prisma.card.update({
       where: { id },
       data: {
         ...rest,
         ...(glossary !== undefined
           ? { glossary: glossary as unknown as Prisma.InputJsonValue }
+          : {}),
+        ...(options !== undefined
+          ? { options: options as unknown as Prisma.InputJsonValue }
           : {}),
       },
     });

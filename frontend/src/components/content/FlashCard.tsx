@@ -8,18 +8,30 @@ export interface FlashCardProps {
   answer: string;
   summary?: string;
   glossary?: GlossaryItem[];
+  options?: string[] | null;
   flipped: boolean;
   onFlip: () => void;
   onCorrect: () => void;
   onIncorrect: () => void;
 }
 
-export function FlashCard({ question, answer, summary, glossary, flipped, onFlip, onCorrect, onIncorrect }: FlashCardProps) {
+export function FlashCard({ question, answer, summary, glossary, options, flipped, onFlip, onCorrect, onIncorrect }: FlashCardProps) {
   const [draft, setDraft] = useState('');
+  const [selectedOptions, setSelectedOptions] = useState<Set<string>>(new Set());
 
-  // Clear draft whenever a new card is shown
+  function toggleOption(opt: string) {
+    setSelectedOptions((prev) => {
+      const next = new Set(prev);
+      if (next.has(opt)) next.delete(opt);
+      else next.add(opt);
+      return next;
+    });
+  }
+
+  // Clear draft + selections whenever a new card is shown
   useEffect(() => {
     setDraft('');
+    setSelectedOptions(new Set());
   }, [question]);
 
   return (
@@ -54,7 +66,40 @@ export function FlashCard({ question, answer, summary, glossary, flipped, onFlip
             <div className="w-full text-center">
               <RichContent content={question} />
             </div>
-            <p className="mt-6 text-sm text-eightbit-ink/60">Clique para revelar a resposta</p>
+            {options && options.length > 0 && (
+              <div
+                className="mt-4 w-full space-y-2 text-left"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {options.map((opt, i) => {
+                  const checked = selectedOptions.has(opt);
+                  return (
+                    <label
+                      key={i}
+                      className={`flex cursor-pointer items-center gap-3 rounded border-2 px-4 py-2 transition-colors ${
+                        checked
+                          ? 'border-eightbit-blue bg-eightbit-blue/10 font-bold text-eightbit-blue'
+                          : 'border-eightbit-ink/20 hover:border-eightbit-blue/50'
+                      }`}
+                    >
+                      <input
+                        type="checkbox"
+                        checked={checked}
+                        onChange={() => toggleOption(opt)}
+                        className="h-4 w-4 accent-eightbit-blue"
+                      />
+                      <RichContent content={opt} />
+                    </label>
+                  );
+                })}
+              </div>
+            )}
+            {!(options && options.length > 0) && (
+              <p className="mt-6 text-sm text-eightbit-ink/60">Clique para revelar a resposta</p>
+            )}
+            {options && options.length > 0 && (
+              <p className="mt-4 text-sm text-eightbit-ink/60">Marque sua(s) resposta(s) e clique para revelar</p>
+            )}
           </div>
 
           {/* Back — answer + summary */}
