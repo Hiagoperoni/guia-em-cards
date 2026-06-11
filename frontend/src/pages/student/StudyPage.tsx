@@ -149,6 +149,8 @@ export function StudyPage() {
   }
 
   const card = cards[index];
+  if (!card) return <Screen>Preparando sessão...</Screen>;
+
   return (
     <div className="flex min-h-screen flex-col">
       <header className="border-b-4 border-eightbit-ink bg-eightbit-panel px-6 py-3">
