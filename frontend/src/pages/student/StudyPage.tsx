@@ -43,9 +43,23 @@ function selectSessionCards(items: CardListItem[]): CardListItem[] {
 
   const quota: Record<'facil' | 'media' | 'dificil', number> = { facil: 6, media: 10, dificil: 4 };
   const picked: CardListItem[] = [];
+  const pickedIds = new Set<string>();
   for (const level of ['facil', 'media', 'dificil'] as const) {
-    picked.push(...shuffle(groups[level]).slice(0, quota[level]));
+    for (const c of shuffle(groups[level]).slice(0, quota[level])) {
+      picked.push(c);
+      pickedIds.add(c.id);
+    }
   }
+
+  // Completa até 20 com os cards restantes caso algum grupo de dificuldade
+  // não preencha a cota (ex.: difficulty ausente na API → todos em "outro").
+  if (picked.length < 20) {
+    for (const c of shuffle(items.filter((c) => !pickedIds.has(c.id)))) {
+      if (picked.length >= 20) break;
+      picked.push(c);
+    }
+  }
+
   return shuffle(picked);
 }
 
