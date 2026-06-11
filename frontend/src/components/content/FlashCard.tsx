@@ -50,15 +50,15 @@ export function FlashCard({ question, answer, summary, glossary, options, flippe
             transformStyle: 'preserve-3d',
             transition: 'transform 0.55s cubic-bezier(0.4, 0, 0.2, 1)',
             transform: flipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
-            position: 'relative',
+            display: 'grid',
             width: '100%',
             minHeight: '320px',
           }}
         >
           {/* Front — question */}
           <div
-            className="eightbit-box absolute inset-0 flex flex-col items-center justify-center p-8"
-            style={{ backfaceVisibility: 'hidden' }}
+            className="eightbit-box flex flex-col items-center justify-center p-5 sm:p-8"
+            style={{ backfaceVisibility: 'hidden', gridArea: '1 / 1' }}
           >
             <span className="mb-4 font-pixel text-[10px] uppercase tracking-widest text-eightbit-blue">
               Pergunta
@@ -104,8 +104,8 @@ export function FlashCard({ question, answer, summary, glossary, options, flippe
 
           {/* Back — answer + summary */}
           <div
-            className="eightbit-box absolute inset-0 flex flex-col p-8"
-            style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)', background: '#4a4a4a' }}
+            className="eightbit-box flex flex-col p-5 sm:p-8"
+            style={{ backfaceVisibility: 'hidden', gridArea: '1 / 1', transform: 'rotateY(180deg)', background: '#4a4a4a' }}
           >
             <span className="mb-3 font-pixel text-[10px] uppercase tracking-widest text-eightbit-blue-shadow">
               Resposta
